@@ -1,3 +1,3 @@
 ## Preview
 
-[![Resume Preview](https://startbootstrap.com/assets/img/screenshots/themes/resume.png)](https://jaewon-jun9.github.io/portfolio/)
+[![Resume Preview](https://github.com/jaewon-jun9/portfolio/blob/master/img/prev.PNG)](https://jaewon-jun9.github.io/portfolio/)
