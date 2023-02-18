@@ -1,339 +1,3489 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-    <meta charset="UTF-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>정재원과 송지희의 결혼식</title>
-    <meta content="정재원과 송지희의 결혼식에 와서 축하해주세요~!" name="description"/>
-    <meta property="og:image" content="images/">
-    <meta property="fb:app_id" content="781066922265598" />
-    <meta property="fb:admins" content="Choi.Anderson"/>
-    <link href="images/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
-    <link href="images/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
-    <link href="images/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-    <link href="css/ekko-lightbox.css" rel="stylesheet">
-    <link href="styles/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Gugi|Noto+Serif+KR|Stylish|Sunflower:300"
-          rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>정재원♡송지희의 모바일청첩장입니다</title>
 
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        function sendMail() {
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="user-scalable=yes, initial-scale=1.0" />
+    <!--
+    , maximum-scale=3.0
+    -->
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="bojagicard.com" />
+<meta property="og:url" content="http://bojagicard.com/g/home.php?ecard=sghjjw" />
+<meta property="og:title" content="정재원♡송지희의 모바일청첩장" />
+<meta property="og:image" content="http://bojagicard.com/g/img/130219_01_00.png" />
+<meta property="og:description" content="http://bojagicard.com/sghjjw" />
+<link rel="stylesheet" type="text/css" href="/m/mobile.css?hash=20211112a" />
+<link rel="stylesheet" type="text/css" href="style.css?hash=20211112a" />
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" href="https://img.bojagicard.com/jquery/css/swiper.min.css">
+<script language="javascript" type="text/javascript" src="https://img.bojagicard.com/jquery/jquery-1.7.2.min.js"></script>
+<script language="javascript" type="text/javascript" src="https://img.bojagicard.com/jquery/jquery.ui.1.8.18.all.min.js"></script>
+<script language="javascript" type="text/javascript" src="https://img.bojagicard.com/jquery/jquery.form.js"></script>
+<script language="javascript" type="text/javascript" src="https://img.bojagicard.com/jquery/jquery.cookie.js"></script>
+<script language="javascript" type="text/javascript" src="https://img.bojagicard.com/jquery/jquery.transit.min.js"></script>
+<script language="javascript" type="text/javascript" src="https://img.bojagicard.com/jquery/swipe.js"></script>
+<script language="javascript" type="text/javascript" src="https://img.bojagicard.com/jquery/swiper.min.js"></script>
+<script>
+var mcni = '0';
+var mcni_func = '0';
+var mask_release_allow = true
+if (mcni_func == '2') mask_release_allow = false
+</script>
+<script language="javascript" type="text/javascript" src="script.js?hash=20211112a"></script>
+<script>
+var https = 'on'
+var is_pc = '1'
+var uid = 'sghjjw'
+var owner = ''
+var my_ip_now = '125.188.242.248'
+var mcard_ver = Number('3')
 
-            (function () {
-                emailjs.init("user_yjLL5xG0A3kkOCH5BGIDh");
-                emailjs.send("wedding-mail", "gift_send", {
-                    name: $("#sender-name").value,
-                    gift: $("#gift-name").text(),
-                    message: $("#sender-message").value
-                }).then(function (response) {
-                    console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
-                }, function (err) {
-                    console.log("FAILED. error=", err);
-                });
-            })();
-        }
+// auto image size
+if (navigator.userAgent.indexOf("Mobile") != -1) var Mobile=1
+var nw=0
+var nh=0
+nw = Number(document.documentElement.clientWidth)  //BROWSER WIDTH
+nh = Number(document.documentElement.clientHeight)
+var screen_ratio = nw/320
+var whrate = nw/nh
+var photo_idx = 0
 
-        function findGetParameter(parameterName) {
-            var result = null,
-                tmp = [];
-            location.search
-                .substr(1)
-                .split("&")
-                .forEach(function (item) {
-                  tmp = item.split("=");
-                  if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
-                });
-            return result;
-        }
 
-        $(document).ready(function () {
 
-            function getText(){
-                var result = null;
-                $.ajax( { url: "https://raw.githubusercontent.com/AndersonChoi/wedding-card/master/README.md",
-                        type: 'get',
-                        dataType: 'html',
-                        async: false,
-                        success: function(data) { result = data; }
+// CONNECTION CHECK
+var test_env = false
+if (uid == 'onave') test_env = true
+
+
+
+// FIXED
+var mcard_hosts = new Array()
+var mcard_host_check_results = new Array()
+mcard_hosts.push('https://mcard1.bojagicard.com')
+mcard_host_check_results.push('0')
+mcard_hosts.push('https://mcard2.bojagicard.com')
+mcard_host_check_results.push('0')
+mcard_hosts.push('https://mcard3.bojagicard.com')
+mcard_host_check_results.push('0')
+// Inherited
+var mcard_file_host = 'https://mcard1.bojagicard.com'
+// Checked, Judged
+var mcard_conn_fails = new Array()
+var hosts_ok_total = 0
+var mcard_server_force = ''
+
+$(function() {
+
+
+
+if (owner == '') {
+
+    //if (test_env) my_ip_now = '1.1.1.1'  // TEST
+
+    if (test_env) {
+        console.log('hosts avail', 'https://mcard1.bojagicard.com,https://mcard2.bojagicard.com,https://mcard3.bojagicard.com')
+        console.log('hosts ready', mcard_hosts.join(','))
+        console.log('my_ip_now:', my_ip_now)
+        console.log('my_ip_prev:', $.cookie('my_ip_prev'))
+    }
+
+    var conn_check_proc = false
+    if (my_ip_now != $.cookie('my_ip_prev')) conn_check_proc = true;  // 쿠키에 저장된 IP정보 값이 없거나 다를시
+    if (mcard_server_force != '') conn_check_proc = false;  // 강제 지정시에는 예외
+
+    // 연결 체크, 재지정 실행
+    if (conn_check_proc) {
+        setTimeout(function(){
+
+
+            $.cookie('my_ip_prev', my_ip_now, { expires: 30, path: '/' })  // Save my_ip
+
+            if (test_env) console.log('\n--- connection check ---\n\n')
+
+            for(i=0; i < mcard_hosts.length; i++) {
+                mcard_host_http_check(i)
+            }
+
+            // 모두 체크했는지 확인
+            var hosts_checked_total = 0
+            for(i=0; i < mcard_hosts.length; i++) {
+                if (mcard_host_check_results[i] != '0') {
+                    hosts_checked_total++
+                }
+            }
+
+            // 판단, 리포팅
+            var conn_fail_matched = false
+            if (hosts_checked_total == mcard_hosts.length) {
+                for(i=0; i < mcard_hosts.length; i++) {
+                    if (test_env) console.log('mcard'+i + ' : ' + mcard_host_check_results[i])  // TEST
+                    if (mcard_host_check_results[i] == '1') {
+                        hosts_ok_total++
+                    } else {
+                        mcard_conn_fails.push(mcard_hosts[i])
+                        if (test_env) console.log('         Fail match check :', mcard_file_host, mcard_hosts[i])
+                        if (mcard_file_host == mcard_hosts[i]) {
+                            conn_fail_matched = 1
+                        }
+                        $.get('//bojagicard.com/g/mcard_conn_report.php?uid='+uid+'&user_id=&host='+mcard_hosts[i]+'&matched='+conn_fail_matched, function(){})
                     }
-                );
-                FileReady = true;
-                return result;
+                }
             }
-            var markdown_source = getText();
-            var comment_contents = markdown_source.split("축하의 말")[1];
 
-            var md = new Remarkable();
-            $("#comments").append(md.render(comment_contents));
+            // 연결실패 호스트 내역 저장
+            $.cookie('mcard_conn_fails', mcard_conn_fails.join(','), { path: '/' })
 
-            
-            if(findGetParameter('gift')=='false'){
-                $('#gifts').hide();
+            // 연결실패 호스트와 매칭된 경우, 새로 고침
+            if (conn_fail_matched) {
+                location.reload()
             }
-        });
+
+
+        }, 1000)
+    }
+
+
+    // 새로고침 이후이면, 리포팅, 쿠키 삭제
+    //$.cookie('my_ip_prev', my_ip_now, { expires: 30, path: '/' })  // Save my_ip
+    //$.get('//bojagicard.com/g/mcard_conn_report.php?uid='+uid+'&user_id=&host='+mcard_hosts[i]+'&matched='+conn_fail_matched, function(){})
+    
+
+
+}
 
 
 
 
-    </script>
+
+            nw = $("#wrapper").width()
+    
+
+        if (whrate < 1.5) {
+                $(".low_whrate_is").show()
+                $(".low_whrate_no").hide()
+        }
+
+
+        $(".fits").each(function() {
+
+                $(this).css("width",   Math.round(Number($(this).attr("width")*screen_ratio))  )
+                var h=Math.round(Number($(this).attr("height")*screen_ratio))
+                if ($(this).attr("height")) $(this).css("height",  h  )
+                $("#sesnor_block").css("height",  h  )
+                $("#sesnor_block").attr("height",  h  )
+                $("#slideshow").css("height",  h  )
+                if ( $(this).attr("src") == "https://bojagicard.com/g/img/000000_00_00.png" ) $(this).css("height",1)
+
+        })
+
+        
+})
+
+var md5 = function(s) {function L(k,d) {return(k<<d)|(k>>>(32-d))}function K(G,k) {var I,d,F,H,x;F=(G&2147483648);H=(k&2147483648);I=(G&1073741824);d=(k&1073741824);x=(G&1073741823)+(k&1073741823);if (I&d) {return(x^2147483648^F^H)}if (I|d) {if (x&1073741824) {return(x^3221225472^F^H)}else{return(x^1073741824^F^H)}}else{return(x^F^H)}}function r(d,F,k) {return(d&F)|((~d)&k)}function q(d,F,k) {return(d&k)|(F&(~k))}function p(d,F,k) {return(d^F^k)}function n(d,F,k) {return(F^(d|(~k)))}function u(G,F,aa,Z,k,H,I) {G=K(G,K(K(r(F,aa,Z),k),I));return K(L(G,H),F)}function f(G,F,aa,Z,k,H,I) {G=K(G,K(K(q(F,aa,Z),k),I));return K(L(G,H),F)}function D(G,F,aa,Z,k,H,I) {G=K(G,K(K(p(F,aa,Z),k),I));return K(L(G,H),F)}function t(G,F,aa,Z,k,H,I) {G=K(G,K(K(n(F,aa,Z),k),I));return K(L(G,H),F)}function e(G) {var Z;var F=G.length;var x=F+8;var k=(x-(x%64))/64;var I=(k+1)*16;var aa=Array(I-1);var d=0;var H=0;while(H<F) {Z=(H-(H%4))/4;d=(H%4)*8;aa[Z]=(aa[Z]| (G.charCodeAt(H)<<d));H++}Z=(H-(H%4))/4;d=(H%4)*8;aa[Z]=aa[Z]|(128<<d);aa[I-2]=F<<3;aa[I-1]=F>>>29;return aa}function B(x) {var k="",F="",G,d;for(d=0;d<=3;d++) {G=(x>>>(d*8))&255;F="0"+G.toString(16);k=k+F.substr(F.length-2,2)}return k}function J(k) {k=k.replace(/rn/g,"n");var d="";for(var F=0;F<k.length;F++) {var x=k.charCodeAt(F);if (x<128) {d+=String.fromCharCode(x)}else{if ((x>127)&&(x<2048)) {d+=String.fromCharCode((x>>6)|192);d+=String.fromCharCode((x&63)|128)}else{d+=String.fromCharCode((x>>12)|224);d+=String.fromCharCode(((x>>6)&63)|128);d+=String.fromCharCode((x&63)|128)}}}return d}var C=Array();var P,h,E,v,g,Y,X,W,V;var S=7,Q=12,N=17,M=22;var A=5,z=9,y=14,w=20;var o=4,m=11,l=16,j=23;var U=6,T=10,R=15,O=21;s=J(s);C=e(s);Y=1732584193;X=4023233417;W=2562383102;V=271733878;for(P=0;P<C.length;P+=16) {h=Y;E=X;v=W;g=V;Y=u(Y,X,W,V,C[P+0],S,3614090360);V=u(V,Y,X,W,C[P+1],Q,3905402710);W=u(W,V,Y,X,C[P+2],N,606105819);X=u(X,W,V,Y,C[P+3],M,3250441966);Y=u(Y,X,W,V,C[P+4],S,4118548399);V=u(V,Y,X,W,C[P+5],Q,1200080426);W=u(W,V,Y,X,C[P+6],N,2821735955);X=u(X,W,V,Y,C[P+7],M,4249261313);Y=u(Y,X,W,V,C[P+8],S,1770035416);V=u(V,Y,X,W,C[P+9],Q,2336552879);W=u(W,V,Y,X,C[P+10],N,4294925233);X=u(X,W,V,Y,C[P+11],M,2304563134);Y=u(Y,X,W,V,C[P+12],S,1804603682);V=u(V,Y,X,W,C[P+13],Q,4254626195);W=u(W,V,Y,X,C[P+14],N,2792965006);X=u(X,W,V,Y,C[P+15],M,1236535329);Y=f(Y,X,W,V,C[P+1],A,4129170786);V=f(V,Y,X,W,C[P+6],z,3225465664);W=f(W,V,Y,X,C[P+11],y,643717713);X=f(X,W,V,Y,C[P+0],w,3921069994);Y=f(Y,X,W,V,C[P+5],A,3593408605);V=f(V,Y,X,W,C[P+10],z,38016083);W=f(W,V,Y,X,C[P+15],y,3634488961);X=f(X,W,V,Y,C[P+4],w,3889429448);Y=f(Y,X,W,V,C[P+9],A,568446438);V=f(V,Y,X,W,C[P+14],z,3275163606);W=f(W,V,Y,X,C[P+3],y,4107603335);X=f(X,W,V,Y,C[P+8],w,1163531501);Y=f(Y,X,W,V,C[P+13],A,2850285829);V=f(V,Y,X,W,C[P+2],z,4243563512);W=f(W,V,Y,X,C[P+7],y,1735328473);X=f(X,W,V,Y,C[P+12],w,2368359562);Y=D(Y,X,W,V,C[P+5],o,4294588738);V=D(V,Y,X,W,C[P+8],m,2272392833);W=D(W,V,Y,X,C[P+11],l,1839030562);X=D(X,W,V,Y,C[P+14],j,4259657740);Y=D(Y,X,W,V,C[P+1],o,2763975236);V=D(V,Y,X,W,C[P+4],m,1272893353);W=D(W,V,Y,X,C[P+7],l,4139469664);X=D(X,W,V,Y,C[P+10],j,3200236656);Y=D(Y,X,W,V,C[P+13],o,681279174);V=D(V,Y,X,W,C[P+0],m,3936430074);W=D(W,V,Y,X,C[P+3],l,3572445317);X=D(X,W,V,Y,C[P+6],j,76029189);Y=D(Y,X,W,V,C[P+9],o,3654602809);V=D(V,Y,X,W,C[P+12],m,3873151461);W=D(W,V,Y,X,C[P+15],l,530742520);X=D(X,W,V,Y,C[P+2],j,3299628645);Y=t(Y,X,W,V,C[P+0],U,4096336452);V=t(V,Y,X,W,C[P+7],T,1126891415);W=t(W,V,Y,X,C[P+14],R,2878612391);X=t(X,W,V,Y,C[P+5],O,4237533241);Y=t(Y,X,W,V,C[P+12],U,1700485571);V=t(V,Y,X,W,C[P+3],T,2399980690);W=t(W,V,Y,X,C[P+10],R,4293915773);X=t(X,W,V,Y,C[P+1],O,2240044497);Y=t(Y,X,W,V,C[P+8],U,1873313359);V=t(V,Y,X,W,C[P+15],T,4264355552);W=t(W,V,Y,X,C[P+6],R,2734768916);X=t(X,W,V,Y,C[P+13],O,1309151649);Y=t(Y,X,W,V,C[P+4],U,4149444226);V=t(V,Y,X,W,C[P+11],T,3174756917);W=t(W,V,Y,X,C[P+2],R,718787259);X=t(X,W,V,Y,C[P+9],O,3951481745);Y=K(Y,h);X=K(X,E);W=K(W,v);V=K(V,g)}var i=B(Y)+B(X)+B(W)+B(V);return i.toLowerCase()};
+function mcard_host_http_check(i) {
+    $.ajax({
+    	async: false,
+        type: 'POST',
+    	processData: false,
+    	contentType: false,
+        url : mcard_hosts[i]+'/pong.php',
+    })
+    .done(function (data, textStatus, xhr) {
+        mcard_host_check_results[i] = data
+    })
+    .fail(function(data, textStatus, errorThrown){
+        mcard_host_check_results[i] = data
+    })
+}
+</script>
+
+
+<style>
+@import url('//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css');
+
+* {
+    -webkit-text-size-adjust: none; /* 아이폰 폰트 자동확대축소 방지 */
+    color: #333333;
+    font-family: 'Nanum Barun Gothic';
+    font-weight: 300;
+}
+
+textarea {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    -webkit-appearance: none;
+    background-color: #f8f8f8;
+    border: 1px solid #ececec;
+    line-height: 18px!important;
+    overflow: hidden;
+    padding: 10px;
+    width: 100%;
+}
+textarea::placeholder {
+    color: gray;
+}
+
+img { border:0; }
+span { font-size:12px; color:#6b6b6b;  }
+select { font-size:12px; background-color:#ffffff; }
+
+pre { font-size:12px; }
+ul, li { margin:0px; border:0px; padding:0px; }
+center { font-size:0px; }
+.ui-effects-transfer { border: 2px solid gray;  } /* 샘플담기 효과  border: 4px dotted #4867aa; */
+body { font-size:0px; background-color:#fff; overflow-x:hidden }
+.skin_color { background-color: #d9d9d9; color:#ffffff; } /* #848685 */
+.skin_001 { background-image:url('https://bojagicard.com/g/img/_bg-01.gif'); color:#fff; }
+.skin_002 { background-image:url('https://bojagicard.com/g/img/_bg-02.gif'); color:#333; }
+.skin_003 { background-image:url('https://bojagicard.com/g/img/_bg-03.gif'); color:#fff; }
+.title2 { color:#6b6b6b; font-size:14px; font-weight:bold; padding:10px; background-color:#f2f2f2; border-top:1px solid #e4e4e4; border-bottom:1px solid #e4e4e4; }
+
+.section_body {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+.section_title {
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.section_wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ch0 { font-size:11px; color:#878787; text-align:left; padding-left:10px; width:66px; }
+.ch0, .cd0 { border-bottom:1px solid #efefef; }
+.btn { cursor:pointer; }
+.btn2 { cursor:pointer;width:87px; height:24px; background-color:#ffffff; text-align:center; line-height:28px; margin-left:5px; border: solid 1px #96979b; display:inline-block;}
+.btn2_fnt {font-size:12px!important; font-weight:bold; color:#96979b }
+.top_btn{ cursor:pointer; background-color:#b6b7bb; text-align:center;  }
+.btm_btn { cursor:pointer; background-color:#b3e5dc; text-align:center; }
+.btn_fnt {font-size:13px!important; font-weight:bold; }
+
+.th_long { vertical-align:top; padding-top:14px!important; }
+
+
+html {
+    -webkit-text-size-adjust: none;
+    
+        
+    overflow-x:hidden;
+    overflow-y:scroll;
+    
+    
+}
+body { overflow:hidden; }
+
+.nav_btn_all { width:20px; height:20px; background-repeat:no-repeat; float:left; background-position:center center; margin-right:3px; }
+.nav_btn_img { width:20px; height:20px; cursor:pointer; }
+.nav_num { background-image:url(https://bojagicard.com/g/img/131018_01_02pc.png);  background-size:20px 20px;  }
+.on { background-image:url(https://bojagicard.com/g/img/131018_01_01pc_d9d9d9.png); }
+nav, center, span { font-size:0px; }
+
+.datetime { font-size:11px!important; color:#a7a7a7;  font-smooth:never; -webkit-font-smoothing:none; font-family:dotum;  }
+.photo_subject { font-size:13px; color:#626262; }
+
+.border_focused { border:1px solid black; }
+.border_focusout { border:1px solid #f0f0f0;  }
+
+.register_button {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid #666666;
+    color: #333333;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 12px;
+    text-align: center;
+}
+
+
+.article_row {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    border-top: 1px solid #e7e7e7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    vertical-align: middle;
+    clear: both;
+}
+.msg_date {
+    color: #bbbbbb;
+    font-size: 11px;
+    display: inline-block;
+}
+.msg_button {
+    color: #bbbbbb;
+    cursor: pointer;
+    font-size: 11px;
+    display: inline-block;
+    margin-left: 24px;
+    outline: none;
+}
+
+
+
+.ios-11-body-fixed {
+position: fixed;
+width: 100%;
+}
+
+#mcni_wrapper {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    z-index: 11;
+}
+#mcni_img {}
+#mcni_x_btn {
+    cursor: pointer;
+    position: absolute;
+    left: 14px;
+    top: 14px;
+    width: 17px;
+    outline: none;
+}
+#mcni_download_btn {
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    width: 17px;
+}
+</style>
+
 </head>
 
-<body id="top">
-<header></header>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v3.2"></script>
-<div class="page-content">
-    <div class="div">
-        <div class="ww-home-page" id="home">
-            <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
-                <div class="container ww-announcement-container">
-                    <p class="ww-couple-name ww-title" style="font-size:4.0em">Jaewon & Gehee</p>
-                    <p class="h2 mt-5 ww-title" style="font-family: 'Gugi', cursive; font-size:1.0em">
-                        | WE ARE GETTING MARRIED |
-                    </p>
-                    <p class="h2 mt-5 ww-title"
-                       style="font-family: 'Noto Serif KR', serif; font-size:1.0em; letter-spacing:-1px">
-                        <b style="font-size:1.4em;">2022. 07. 30. SAT PM 02:00</b>
-                        <br>명동성당
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="ww-nav-bar sticky-top bg-light">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                    <button aria-controls="ww-navbarNav" aria-expanded="false" aria-label="Toggle navigation"
-                            class="navbar-toggler"
-                            data-target="#ww-navbarNav" data-toggle="collapse" type="button">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse text-uppercase" id="ww-navbarNav">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#home">Home</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#couple">Couple</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#events">Events</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#gallery">Gallery</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="ww-section" id="couple">
-            <div class="container">
-                <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">신랑 & 신부</h2>
-                <div class="row text-center">
-                    <div class="col-md-6">
-                        <div class="mt-3">
-                            <h3 class="h2 ww-title" style="font-family: 'Sunflower', sans-serif; font-size:1.5em">
-                                이소민</h3>
-                            <img alt="Groom" class="img-fluid" src="images/"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="mt-3">
-                            <h3 class="h2 ww-title" style="font-family: 'Sunflower', sans-serif; font-size:1.5em">
-                                최원영</h3>
-                            <img alt="Bride" class="img-fluid" src="images/"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ww-section bg-light" id="events">
-            <div class="container ww-wedding-event">
-                <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">초대합니다</h2>
-                    <div class="col text-center mb-5">
-                        <h6 style="font-family: 'Noto Serif KR', serif;">
-                            1463<br>
-                            (만난지 4년+1일 되는날 결혼 = 1463일)
-                        </h6>
-                    </div>
-                <div class="row">
-                    <div class="col-md-7 col-sm-12">
-                        <div class="my-3">
-                            <div class="h4">웨딩 본식</div>
-                            <ul>
-                                <li>
-                                    <i class="text-muted fas fa-map-marker-alt"></i>
-                                    <span class="pl-2 text-muted">부산 해운대 우동 센텀사이언스 파크 23층</span>
-                                </li>
-                                <li class="pt-2">
-                                    <i class="text-muted far fa-calendar-alt"></i>
-                                    <span class="pl-2 text-muted">2019년 5월 18일, 2:30PM</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-5 col-sm-12">
-                        <div class="my-3">
-                            <img alt="Wedding Party" class="img-fluid" src="images/wedding-party.jpg"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-7 col-sm-12">
-                        <div class="my-3">
-                            <div class="h4">식사</div>
-                            <ul>
-                                <li>
-                                    <i class="text-muted fas fa-map-marker-alt "></i>
-                                    <span class="pl-2 text-muted">부산 해운대 우동 센텀사이언스 파크 지하 1층 더파티 센텀점</span>
-                                </li>
-                                <li class="pt-2">
-                                    <i class="text-muted far fa-calendar-alt "></i>
-                                    <span class="pl-2 text-muted">2019년 5월 18일, 2:30PM - 4:30PM</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-5 col-sm-12">
-                        <div class="my-3"><img alt="Reception" class="img-fluid" src="images/"/></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ww-section" id="gallery">
-            <div class="ww-photo-gallery">
-                <div class="container">
-                    <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">포토 갤러리</h2>
-                    <div class="ww-gallery">
-                        <div class="card-columns">
-                            <div class="card" data-groups="[&quot;party&quot;,&quot;wedding&quot;]">
-                                <a data-gallery="ww-gallery" data-toggle="lightbox">
-                                    <img alt="Gallery Pic 2" class="img-fluid" src="images/"/>
-                                </a>
-                            </div>
-                            <div class="card" data-groups="[&quot;vacation&quot;]">
-                                <a data-gallery="ww-gallery" data-toggle="lightbox">
-                                    <img alt="Gallery Pic 3" class="img-fluid" src="images/"/>
-                                </a>
-                            </div>
-                            <div class="card" data-groups="[&quot;party&quot;,&quot;vacation&quot;]">
-                                <a data-gallery="ww-gallery" data-toggle="lightbox">
-                                    <img alt="Gallery Pic 4" class="img-fluid" src="images/"/>
-                                </a>
-                            </div>
-                            <div class="card" data-groups="[&quot;vacation&quot;]">
-                                <a data-gallery="ww-gallery" data-toggle="lightbox">
-                                    <img alt="Gallery Pic 5" class="img-fluid" src="images/"/>
-                                </a>
-                            </div>
-                            <div class="card"
-                                 data-groups="[&quot;wedding&quot;,&quot;ceremony&quot;,&quot;party&quot;]">
-                                <a data-gallery="ww-gallery" data-toggle="lightbox">
-                                    <img alt="Gallery Pic 6" class="img-fluid" src="images/"/>
-                                </a>
-                            </div>
-                            <div class="card" data-groups="[&quot;vacation&quot;]">
-                                <a data-gallery="ww-gallery" data-toggle="lightbox">
-                                    <img alt="Gallery Pic 7" class="img-fluid" src="images/"/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-        <div class="ww-section ww-rsvp-detail" id="map">
-            <div class="container">
-                <div class="col text-center">
-                    <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">오시는 길</h2>
-                    <div>
-                        <h5 style="font-family: 'Noto Serif KR', serif;">센텀사이언스파크웨딩홀 23층 스카이홀</h5>
-                        <h6 style="font-family: 'Noto Serif KR', serif;">(부산 해운대구 센텀중앙로 79)</h6>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <div class="col-md-12">
-                        <div class="my-3 text-center">
-                            <a href="http://naver.me/5pTy3HCa">
-                                <img alt="naver-map" class="map-icon" id="naver-map"
-                                     src="images/map/naver-map.png"/>
-                            </a>
-                            <a href="http://dmaps.kr/2bms8">
-                                <img alt="kakao-map" class="map-icon" id="kakao-map"
-                                     src="images/map/kakao-map.png"/>
-                            </a>
-                            <a href="https://maps.app.goo.gl/jfDxw">
-                                <img alt="google-map" class="map-icon" id="google-map"
-                                     src="images/map/google-map.png"/>
-                            </a>
-                        </div>
-                        <div class="col text-center">
-                            <label style="font-family: 'Noto Serif KR', serif; font-size: 15px;">
-                                셔틀버스 - 센텀시티역 4번출구앞에서 15분 간격으로 운행
-                            </label>
-                        </div>
-                        <div class="my-3">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.297439052569!2d129.1238775160104!3d35.1741384652207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356892c2513ecf5d%3A0x7d362ece2091e2f8!2z7IS87YWA7IKs7J207Ja47Iqk7YyM7YGsIOy7qOuypOyFmO2ZgA!5e0!3m2!1sko!2skr!4v1554092125630!5m2!1sko!2skr" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
 
 
-            </div>
+<body bgcolor="#ffffff" style="position: relative;">
+
+<div id="mask" style="position: fixed; z-index: 10; left: 0; top: 0; background-color: #000000; cursor: pointer; display: none; width: 100%; height: 100%;"></div>
+
+
+
+
+
+
+
+<div id="wrapper" style=" width: 375px; margin: auto; " alt="before 2018.06.18 pc - w323px">
+
+
+
+
+
+
+
+
+<style>
+.mma { border-bottom: 0px solid #d5d5d5; font-size: 0; line-height: 0; position: relative; height: 45px; }
+.mma_on { background-color:#f2f2f2; border:1px solid #d5d5d5; border-bottom:0; }
+.mma_btn { height: 11px; cursor: pointer; }
+</style>
+
+
+
+
+
+<script>
+var firsttouch = 1  // 첫 터치시, 상단메뉴 노출 기능, 0 값을 주면 활성됨
+
+$(function(){
+
+
+	
+		$("#mma").width( $("#wrapper").width() )
+		$("#mma").css("left", ( $(window).width() - $("#wrapper").width() ) / 2 +"px")
+
+		$(window).bind("resize",function() {
+			$("#mma").width( $("#wrapper").width() )
+			$("#mma").css("left", ( $(window).width() - $("#wrapper").width() ) / 2 +"px")
+		})
+
+	
+
+	menu_height = $('#mma').height()
+
+	if (firsttouch == 0) {  // 첫 터치시, 상단메뉴 노출 기능
+		$(window).bind("touchstart",function(){  //touchstart touchmove touchend touchcancel touchforcechange
+			firsttouch = 1
+			$("#mma").show()
+		})
+	}
+
+
+	$('.mma').on('click',function(){
+	
+		var block = $(this).children('img').attr('alt')
+		var posy = $('#'+block+'_row').offset().top - menu_height
+	
+		window.scrollTo(0, posy)
+	
+	})
+
+
+
+	
+})
+
+
+$(window).bind('scroll',function() {
+
+
+    if (wsc_top > ($('#mma').height()*2) ) {
+    	$('#mma').show()
+    } else {
+    	$('#mma').hide()
+    }
+    
+    $('.mma_btn').each(function(){
+    	$(this).attr('src',$(this).attr('src').replace('_on.png','_off.png'))
+    	
+    })
+    
+    if( $('#mma_4').attr('src') != undefined && wsc_top > ($('#guest_row').offset().top-menu_height-1)) $('#mma_4').attr('src',$('#mma_4').attr('src').replace('_off.png','_on.png'))  //GUEST
+    else if($('#mma_3').attr('src') != undefined && wsc_top > ($('#map_row').offset().top-menu_height-1) ) $('#mma_3').attr('src',$('#mma_3').attr('src').replace('_off.png','_on.png'))  //MAP
+    else if($('#mma_2').attr('src') != undefined && wsc_top > ($('#photo_row').offset().top-menu_height-1) ) $('#mma_2').attr('src',$('#mma_2').attr('src').replace('_off.png','_on.png'))  //PHOTO
+    else $('#mma_1').attr('src',$('#mma_1').attr('src').replace('_off.png','_on.png'))
+
+
+})
+
+</script>
+
+
+
+
+<div id=mma style="position: fixed; z-index: 10; width: 100%; height: 45px; display: none;">
+<table border=0 cellspacing=0 cellpadding=0 width="100%" height="100%" style=" background-color: #31343c;">
+	<tr align=center valign=middle>
+
+		<td class=mma alt="home">
+			<img class=mma_btn id=mma_1 src="https://bojagicard.com/g/img/160927_01_01_off.png" alt="home" />
+		</td>
+
+
+		
+
+				<td class=mma alt="map">
+			<img class=mma_btn id=mma_3 src="https://bojagicard.com/g/img/160927_01_03_off.png" alt="map" />
+		</td>
+		
+
+				<td class=mma alt="guest">
+			<img class=mma_btn id=mma_4 src="https://bojagicard.com/g/img/160927_01_04_off.png" alt="guest" />
+			
+			<div id=new_guest_icon_block style="display:none;">
+				<div id=new_guest_img style="position:absolute; top: -10px; right: 4px;"><img src=https://bojagicard.com/g/img/131029_02_02.png width=20 height=20 /></div>
+				<div id=new_guest_cnt style="position:absolute; top:  0px ; right:8px; color:#fff; font-size:11px; text-align:center; width:12px; "></div>
+			</div>
+
+			
+		</td>
+		
+</table>
+</div>
+<div id="home_row"></div>
+
+
+<div id="scene_spacer_top" style=" background-color: #53535b; "></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+#scene_wrapper {
+    line-height: 0;
+    position: relative;
+    min-height: 557px;
+}
+#scene_slider {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    /* top: 244px; */
+}
+#skin_info {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+}
+</style>
+
+<div id="scene_wrapper">
+        	<div id="scene_slider">
+            		        <img class="scene_photo" src="https://mcard1.bojagicard.com/scene/sg/sghjjw/8887ac4031cc64ee75b2bb76af2595f4.jpg" width="100%" />
+		    		        <img class="scene_photo" src="https://mcard1.bojagicard.com/scene/sg/sghjjw/bd0ed73e62b1c002e198a7df2da61b81.jpg" width="100%" />
+		    		        <img class="scene_photo" src="https://mcard1.bojagicard.com/scene/sg/sghjjw/146af907124de992c8dabada9c1f4f0e.jpg" width="100%" />
+		    	    </div>
+    	<img id="skin_png" src="https://mcard1.bojagicard.com/skin/123.png?hash=1659053112" width="100%" />
+	<img id="skin_info" src="https://mcard1.bojagicard.com/scene/sg/sghjjw/skin_info.png?hash=1659053112" alt="신랑신부, 시간, 장소" />
+</div>
+
+<script src="https://img.bojagicard.com/jquery/sudoSlider/jquery.sudoSlider.min.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+       var sudoSlider = $("#scene_slider").sudoSlider({
+		auto:true,
+		effect: "fade",
+		pause: 3000,
+		speed: 1500,
+		boxCols: 6,
+		boxRows: 8,
+		prevNext: false,
+		controlsFade: false,
+		continuous: true
+       });
+       var slides = $("#slider").children().children();
+       var container = $("#effectLinksHolder");
+       var count = 0;
+       $.each($.fn.sudoSlider.effects, function (effectName, effect) {
+           count++;
+           container.append($("<a> " + effectName + " </a> <span>| </span>").click(function () {
+               slides.attr("data-effect", effectName);
+               sudoSlider.stopAnimation();
+               sudoSlider.goToSlide("next");
+           }));
+       });
+       $("#effectCounter").text(count);
+   });
+</script>
+
+<div id="scene_spacer_bottom" style=" background-color: #53535b; ; position: relative; ">
+    <div id="scene_spacer_bottom_arrow" style="width: 100%; position: absolute; bottom: 40px; text-align: center; display: none;"><img src="https://bojagicard.com/g/img/arrow_scrolldown.gif" height="45" /></div>
+</div>
+
+<script>
+var page_name = 'home'
+var wrapper_width = 0
+var wrapper_left_margin = 0
+var skin_margin_dir = '2'
+skin_margin_dir = 2;  //Only use bottom spacer - 2018.08.08
+
+$(function(){
+
+    $(window).scroll(function(event){
+
+        $('#scene_spacer_bottom_arrow').hide()
+        
+        $('#scene_spacer_bottom').animate({
+            height: 0
+        }, 1000, function(){
+            $('#scene_spacer_bottom').hide()
+        })
+
+    })
+
+
+    //set wrapper size vars
+    wrapper_width = $('#wrapper').width()
+    wrapper_left_margin = $('#wrapper').offset().left
+
+
+	// 랜딩페이지 [정식버전 구매] 클릭으로 접근했을시
+	if ($.cookie('mcard_buy_now') == '1') {
+
+		$.cookie('mcard_buy_now', null, { path: '/' })
+
+		
+	}
+
+
+	
+
+
+    //Block history.back
+    history.pushState('onload', null, null)
+    window.onpopstate = function (e) {
+        if ($('#photo_view').css('display') != 'none') {
+            photo_view_close()
+            history.pushState('onclick', null, null)
+        }
+    }
+
+
+})
+</script>
+
+<style>
+.separator {
+    height: 15px;
+    background-repeat: repeat-x;
+    background-image:url('https://bojagicard.com/g/img/separator_bg.png');
+    background-size: 1px 15px;
+}
+.section {
+    position: relative;
+}
+.insa_text > b {
+    font-weight: 600;
+    font-size: 17px;
+    color: black;
+}
+</style>
+
+
+
+
+
+
+    <div class="separator"></div>
+    <div class="section" id="insa_row">
+        <style>
+#insa_row > div {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+     
+}
+.insa_title {
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+.insa_text {
+    font-size: 15px!important; line-height: 26px;
+}
+.insa_title, .insa_text {
+}
+.insa_name_blank {
+    font-size: 15px;
+    color: transparent;
+}
+</style>
+
+
+<div>
+
+	<div class="insa_title section_title">
+	    	      	</div>
+
+    	<div class="insa_text">조금&nbsp;다른&nbsp;삶을&nbsp;살아&nbsp;온&nbsp;두&nbsp;사람이&nbsp;<br />
+하나의&nbsp;비슷한&nbsp;생각으로&nbsp;이어졌습니다.<br />
+8년동안&nbsp;지속된&nbsp;두&nbsp;사람의&nbsp;사랑이<br />
+드디어&nbsp;혼인이라는&nbsp;삶의&nbsp;단계로&nbsp;넘어가려고&nbsp;합니다.&nbsp;<br />
+그동안&nbsp;저희의&nbsp;사랑을&nbsp;<br />
+지켜봐주시고&#44;&nbsp;응원해주시고<br />
+각자의&nbsp;삶에&nbsp;함께&nbsp;해주신&nbsp;당신을&#44;<br />
+저희의&nbsp;결혼식에&nbsp;초대하고자&nbsp;합니다.&nbsp;<br />
+<br />
+부디&nbsp;참석하셔서&#44;&nbsp;<br />
+다시&nbsp;한&nbsp;번&nbsp;저희의&nbsp;새로운&nbsp;삶의&nbsp;여정을&nbsp;응원해주세요.</div>
+
+</div>
+    </div>
+
+
+<style>
+.contact_row {
+    position: relative;
+    border-top: 1px solid #ececec;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-tap-highlight-color: transparent;
+}
+.contact_button {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contact_button_txt {
+    font-size: 13px;
+    margin-top: 10px;
+}
+</style>
+
+    <div class="section" id="contact_row">
+        <div class="contact_row">
+
+        <div class="contact_button" data-type="a">
+        <img src="https://bojagicard.com/g/img/contact_icon_a.png" height="45" />
+        <div class="contact_button_txt">신랑측에 연락하기</div>
+    </div>
+    
+        <div class="contact_button" data-type="b">
+        <img src="https://bojagicard.com/g/img/contact_icon_b.png" height="45" />
+        <div class="contact_button_txt">신부측에 연락하기</div>
+    </div>
+    
+</div>
+    </div>
+
+
+    <div class="separator"></div>
+    <div class="section" id="map_row">
+        
+
+
+<div class="section_title">
+    오시는 길
+</div>
+
+
+
+<div class="section_body">
+
+
+
+    
+
+        <div id="map_navi_row">
+        	<br />
+<b>Warning</b>:  file(http://openapi.map.naver.com/api/geocode.php?key=43fe0b57c3bd1e733d4f79cd920b1fbb&amp;encoding=utf-8&amp;coord=LatLng&amp;query=%EC%84%9C%EC%9A%B8%EC%A4%91%EA%B5%AC%EB%AA%85%EB%8F%992%EA%B0%801-18) [<a href='function.file'>function.file</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in <b>/home/hosting_users/bojagitest/www/g/map_navi.php</b> on line <b>22</b><br />
+
+<div style="box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; text-align: center;">
+
+<script>
+
+var store_url="http://"
+
+function launch(appname,url){
+
+		var isAPPLE = (navigator.userAgent.match('iP') != null)
+
+		// 애플
+		if(isAPPLE){
+
+				location.href = url
+
+		    var clickedAt = +new Date; 
+		    appCheckTimer = setTimeout(function() {
+
+				    if(+new Date - clickedAt < 2000){
+
+								store_url="http://itunes.apple.com/kr/app/"
+								if(appname=="navermap") store_url+="id311867728?mt=8"
+								if(appname=="daummap") store_url+="id304608425?mt=8"
+								if(appname=="kimgisa") store_url+="id417698849?mt=8"
+
+				        if (confirm("앱이 설치되어 있지 않습니다. \n설치페이지로 이동할까요?")) { location.href = store_url }
+
+				    }
+
+		    }, 1500)
+
+		}
+		
+		// 안드로이드
+		else {
+
+				store_url="market://details?id="
+				if(appname=="navermap") store_url+="com.nhn.android.nmap"
+				if(appname=="daummap") store_url+="net.daum.android.map"
+				if(appname=="kimgisa") store_url+="com.locnall.KimGiSa"
+
+				document.checkframe.location = url
+
+        var b = new Date()
+        setTimeout(function(){
+                if (new Date() - b < 1500) {
+                		if(confirm("앱이 설치되있지 않습니다. \n설치페이지로 이동할까요?")){ location.href=store_url }
+                }
+        }, 500);
+
+
+		}
+
+}
+
+
+
+function launch(appname,url){
+
+		var isAPPLE = (navigator.userAgent.match('iP') != null)
+
+		// 애플
+		if(isAPPLE){
+
+				location.href = url
+
+		    var clickedAt = +new Date; 
+		    appCheckTimer = setTimeout(function() {
+
+				    if(+new Date - clickedAt < 2000){
+
+								store_url="http://itunes.apple.com/kr/app/"
+								if(appname=="navermap") store_url+="id311867728?mt=8"
+								if(appname=="daummap") store_url+="id304608425?mt=8"
+								if(appname=="kimgisa") store_url+="id417698849?mt=8"
+
+				        if (confirm("앱이 설치되어 있지 않습니다. \n설치페이지로 이동할까요?")) { location.href = store_url }
+
+				    }
+
+		    }, 1500)
+
+		}
+		
+		// 안드로이드
+		else {
+
+				store_url="market://details?id="
+				if(appname=="navermap") store_url+="com.nhn.android.nmap"
+				if(appname=="daummap") store_url+="net.daum.android.map"
+				if(appname=="kimgisa") store_url+="com.locnall.KimGiSa"
+
+				document.checkframe.location = url
+
+        var b = new Date()
+        setTimeout(function(){
+                if (new Date() - b < 1500) {
+                		if(confirm("앱이 설치되있지 않습니다. \n설치페이지로 이동할까요?")){ location.href=store_url }
+                }
+        }, 500);
+
+
+		}
+
+}
+// 김기사 공식 URL : http://send.cangoto.com:8888/web/kimgisa/openapi/addpoi.jsp?name=%EB%AA%85%EB%8F%99%EC%84%B1%EB%8B%B9+%ED%8C%8C%EB%B0%80%EB%A6%AC%EC%95%84%EC%B1%84%ED%94%8C&coord_type=wgs84&pos_x=126.98623090691724&pos_y=37.56389258742638&key=d5c2bdecc9cf4ba8b0001a5b493a2713&dwflag=N
+// 티맵 공식 URL : http://m.tmap.co.kr/tmap2/mobile/route.jsp?name=SKT타워&lon=126.984098&lat=37.566385
+// 티맵 수정 : href="./navi/tmap/?name=명동성당 파밀리아채플&posx=126.98623090691724&posy=37.56389258742638"
+</script>
+
+<a		target=_blank  style="margin-right:12px;" onclick='$(".insbox").show();$(".inss").hide();$("#ins_tmap").show();'
+			href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xx20401a447f994002b83f0e74e5482a2d&name=%EB%AA%85%EB%8F%99%EC%84%B1%EB%8B%B9+%ED%8C%8C%EB%B0%80%EB%A6%AC%EC%95%84%EC%B1%84%ED%94%8C&lon=126.98623090691724&lat=37.56389258742638"
+><img src="https://bojagicard.com/g/img/map_navi_button-tmap.png" height="66" /></a>
+
+
+
+<!-- http://kakaonavi-wguide.kakao.com/drive.html?ak=13da3914377346b0b8f74f5309b49dad&ctype=1&lt=37.56389258742638&ln=126.98623090691724&dt=%EB%AA%85%EB%8F%99%EC%84%B1%EB%8B%B9+%ED%8C%8C%EB%B0%80%EB%A6%AC%EC%95%84%EC%B1%84%ED%94%8C -->
+<!-- href="http://kakaonavi-wguide.kakao.com/drive.html?ak=13da3914377346b0b8f74f5309b49dad&ctype=1&lt=37.56389258742638&ln=126.98623090691724&dt=%EB%AA%85%EB%8F%99%EC%84%B1%EB%8B%B9+%ED%8C%8C%EB%B0%80%EB%A6%AC%EC%95%84%EC%B1%84%ED%94%8C" -->
+<!-- href="kimgisa://addPOI?coord_type=wgs84&dwflag=N&key=d5c2bdecc9cf4ba8b0001a5b493a2713&pos_x=126.98623090691724&pos_y=37.56389258742638&name=%EB%AA%85%EB%8F%99%EC%84%B1%EB%8B%B9+%ED%8C%8C%EB%B0%80%EB%A6%AC%EC%95%84%EC%B1%84%ED%94%8C" -->
+
+<!--
+<a		target=_blank style="margin-right: 12px;"
+						onclick="return not_for_pc()" 
+			><img src="https://bojagicard.com/g/img/130423_06_07.png" height=45 /></a>
+-->
+
+
+
+
+
+<a		target=_blank  style="margin-right:12px;"
+
+						onclick="return not_for_pc()" 
+			
+			href="http://m.atlan.co.kr/searchPlus/linkAtlan.do?shareType=kakao&coordX=126.98623090691724&coordY=37.56389258742638&title=%EB%AA%85%EB%8F%99%EC%84%B1%EB%8B%B9+%ED%8C%8C%EB%B0%80%EB%A6%AC%EC%95%84%EC%B1%84%ED%94%8C&AuthKey=2b1ffc4c97acca5a359282739535a280576c02aa0cc4c89b86afca8e20bdc7e8"
+><img src="https://bojagicard.com/g/img/map_navi_button-atlan.png" height="66" /></a>
+
+
+
+
+<a		style="margin-right:12px;"
+
+			    			href="javascript://" onclick="windowcopen('//map.naver.com/?menu=location&pinType=place&lat=37.56389258742638&lng=126.98623090691724&title=%EB%AA%85%EB%8F%99%EC%84%B1%EB%8B%B9+%ED%8C%8C%EB%B0%80%EB%A6%AC%EC%95%84%EC%B1%84%ED%94%8C','','width=1156,height=720')"
+			><img src="https://bojagicard.com/g/img/map_navi_button-naver.png" height="66" /></a>
+
+
+
+
+
+
+
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script type='text/javascript'>
+Kakao.init('13da3914377346b0b8f74f5309b49dad');
+function kakao_navi(){
+    if (is_pc == '1') {
+        alert('모바일 기기 전용 기능입니다')
+    }
+    Kakao.Navi.start({
+                name: '%EB%AA%85%EB%8F%99%EC%84%B1%EB%8B%B9+%ED%8C%8C%EB%B0%80%EB%A6%AC%EC%95%84%EC%B1%84%ED%94%8C',
+        x: 126.98623090691724,
+        y: 37.56389258742638,
+        coordType: 'wgs84'
+    });
+}
+</script>
+<!--
+				target=_blank href="http://map.daum.net/link/map/명동성당 파밀리아채플,37.56389258742638,126.98623090691724"
+-->
+<a style="margin-right: 12px;" onclick="kakao_navi();$('.insbox').hide();"><img src="https://bojagicard.com/g/img/map_navi_button-kakao.png" height="66" /></a>
+
+
+<
+
+
+
+</div>
+
+
+
+<div class="insbox" style="display: none;">
+
+<div class=inss id="ins_tmap"> <img src="https://bojagicard.com/g/img/130530_07_04.gif" width=300 onclick='app_install("tmap")' /> </div>
+<div class=inss id="ins_kimgisa"> <img src="https://bojagicard.com/g/img/130530_07_01.gif" width=300 onclick='app_install("kimgisa")' /> </div>
+<div class=inss id="ins_navermap"> <img src="https://bojagicard.com/g/img/130530_07_02.gif" width=300 onclick='app_install("navermap")' /> </div>
+<div class=inss id="ins_daummap"> <img src="https://bojagicard.com/g/img/130530_07_03.gif" width=300 onclick='app_install("daummap")' /> </div>
+<div class=inss id="ins_atlan"> <img src="https://bojagicard.com/g/img/130530_07_06.gif" width=300 onclick='app_install("atlan")' /> </div>
+
+</div>
+
+
+	
+
+<script>
+function app_install(appname){
+
+		var isAPPLE = (navigator.userAgent.match('iP') != null)
+
+		// 애플
+		if(isAPPLE){
+				store_url="http://itunes.apple.com/kr/app/"
+				if(appname=="navermap") store_url+="id311867728?mt=8"
+				if(appname=="daummap") store_url+="id304608425?mt=8"
+				if(appname=="kimgisa") store_url+="id417698849?mt=8"
+				if(appname=="tmap") store_url+="id431589174?mt=8"
+				if(appname=="atlan") store_url+="id542287735?mt=8"
+		}
+		
+		// 안드로이드
+		else {
+				store_url="market://details?id="
+				if(appname=="navermap") store_url+="com.nhn.android.nmap"
+				if(appname=="daummap") store_url+="net.daum.android.map"
+				if(appname=="kimgisa") store_url+="com.locnall.KimGiSa"
+				//if(appname=="tmap") store_url+="com.skt.skaf.l001mtm092"
+				if(appname=="tmap") store_url+="com.skt.tmap.ku"
+				if(appname=="atlan") store_url+="kr.mappers.AtlanSmart"
+		}
+
+	  window.open(store_url)
+
+}
+</script>
+        </div>
+
+		
+				<div style="position: relative; text-align: right;">
+    				<img src="https://bojagicard.com/g/img/130401_01_06.png" class="map_img" style="position: absolute; top: 0px; right: 0px; width: 33px;" />
+    				<img src='https://mcard1.bojagicard.com/thm/?w=1600&h=1600q=70&src=/ecard/map/sg/sghjjw.jpg&hash=1659053112' width=100% /><br />
+				</div>
+				<script>
+				$(function() {
+					$('.map_img').on('click', function() {
+						window.open('_img_large.php?src_url=https%3A%2F%2Fmcard1.bojagicard.com%2Fthm%2F%3Fw%3D1600%26h%3D1600q%3D70%26src%3D%2Fecard%2Fmap%2Fsg%2Fsghjjw.jpg%26hash%3D1659053112')
+					})
+				})
+				</script>
+		
+		
+		
+
+
+        
+
+
+
+    
+
+    
+
+</div>
+
+
+
+<iframe id=checkframe name=checkframe src="about:blank" width=0 height=0 style="position:absolute; left:-100px;"></iframe>
+
+<div style="height: 15px;"></div>    </div>
+
+
+
+
+
+    
+            <div class="separator"></div>
+        <div class="section" id="map_row">
+            
+
+<style>
+.section_desc {
+    font-family: 'SpoqaHanSans';
+    font-size: 12px;
+    font-weight: 300;
+    border-bottom: 0;
+    text-align: center;
+    color: #333333;
+    margin-top: -20px;
+}
+.bank_txt {
+    cursor: pointer;
+}
+.bank_txt_num {
+    margin-top: 6px;
+}
+.bank_txt_notice {
+    color: #777777;
+    font-size: 11px;
+    text-align: right;
+}
+</style>
+
+<div class="section_title">
+    축하의 마음을 전하세요.</div>
+<div class="section_desc">
+    축하의 마음을 담아 축의금을 전달해 보세요.</div>
+<div class="contact_row" style="border-top: 0;">
+        <div class="contact_button" data-type="m">
+        <img src="https://bojagicard.com/g/img/bank_txt_btn_a.png" height="45">
+        <div class="contact_button_txt">신랑측 계좌번호 확인</div>
+    </div>
+            <div class="contact_button" data-type="f">
+        <img src="https://bojagicard.com/g/img/bank_txt_btn_b.png" height="45">
+        <div class="contact_button_txt">신부측 계좌번호 확인</div>
+    </div>
+    </div>
+
+    <div class="mask_over form_layer" id="contact_m" style="width:95%;position:absolute;left:2.5%; top: -30px;">
+        <img class="form_close_button" id="guest_user_form_close_button" src="https://bojagicard.com/g/img/button_x_01_black.png" height="17"> 
+        <div class="form_title" style="background-image: url('https://bojagicard.com/g/img/bank_txt_btn_a.png'); line-height: 45px;"> 신랑측 계좌번호 </div>
+                                    <table cellspacing="0" cellpadding="0" class="contact_row_table">
+                    <colgroup>
+                        <col width="35%">
+                        <col width="65%">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td>부) 정종일</td>
+                            <td class="bank_txt">
+                                <div class="bank_txt_com">국민은행</div>
+                                <div class="bank_txt_num">86150101354768</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                                                <table cellspacing="0" cellpadding="0" class="contact_row_table">
+                    <colgroup>
+                        <col width="35%">
+                        <col width="65%">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td>모) 김숙이</td>
+                            <td class="bank_txt">
+                                <div class="bank_txt_com">농협</div>
+                                <div class="bank_txt_num">88802095451</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                                                <table cellspacing="0" cellpadding="0" class="contact_row_table">
+                    <colgroup>
+                        <col width="35%">
+                        <col width="65%">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td>신랑 정재원</td>
+                            <td class="bank_txt">
+                                <div class="bank_txt_com">농협</div>
+                                <div class="bank_txt_num">88802134178</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                            <div class="bank_txt_notice">계좌번호 클릭시, 붙여넣기 가능한 텍스트로 복사됩니다.</div>
+    </div>
+    <div class="mask_over form_layer" id="contact_f" style="width:95%;position:absolute;left:2.5%; top: -30px;">
+        <img class="form_close_button" id="guest_user_form_close_button" src="https://bojagicard.com/g/img/button_x_01_black.png" height="17"> 
+        <div class="form_title" style="background-image: url('https://bojagicard.com/g/img/bank_txt_btn_b.png'); line-height: 45px;"> 신부측 계좌번호 </div>
+                                                                            <table cellspacing="0" cellpadding="0" class="contact_row_table">
+                    <colgroup>
+                        <col width="35%">
+                        <col width="65%">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td>신부 송지희</td>
+                            <td class="bank_txt">
+                                <div class="bank_txt_com">국민은행</div>
+                                <div class="bank_txt_num">58920104012444</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                            <div class="bank_txt_notice">계좌번호 클릭시, 붙여넣기 가능한 텍스트로 복사됩니다.</div>
+    </div>
+
+<div style="height: 20px;">&nbsp;</div>
+
+
+<script>
+$(function(){
+    $('.bank_txt').on('click', function(){
+        var bank_txt = $('.bank_txt_com', this).text() + ' ' + $('.bank_txt_num', this).text()
+        if (bank_txt.length > 1) {
+            clipboard_copy(bank_txt)
+            alert(bank_txt + ' 복사되었습니다')
+        }
+    })
+})
+</script>
+        </div>
+    
+
+
+
+
+
+
+
+    <div class="separator"></div>
+    <div class="section" id="guest_row">
+        <div class="section_title">축하 메시지</div>
+<div class="section_body">
+<div id="guest_reply_add_row"></div>
+
+<div id="guest_article_list">
+
+    <div class="msg article_row guest_article" data-idx="1326360" data-croot="1326360">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1326360" data-mail="dwcareercoach@gmail.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1326360">장두원</div>
+        <div data-area="guest" data-idx="1326360" data-mail="dwcareercoach@gmail.com">
+
+            <div class="msg_date">7월 30일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1326360">진심으로 결혼 축하드립니다.</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1326192" data-croot="1326192">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1326192" data-mail="sitcom1109@naver.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1326192">김동형</div>
+        <div data-area="guest" data-idx="1326192" data-mail="sitcom1109@naver.com">
+
+            <div class="msg_date">7월 29일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1326192">결혼 축하합니다. 행복하세요</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1326188" data-croot="1326188">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1326188" data-mail="ktuszero@gmail.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1326188">김병희</div>
+        <div data-area="guest" data-idx="1326188" data-mail="ktuszero@gmail.com">
+
+            <div class="msg_date">7월 29일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1326188">결혼 축하드려요 :)</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1325226" data-croot="1325226">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1325226" data-mail="dada29650yhh@gmail.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1325226">이현호</div>
+        <div data-area="guest" data-idx="1325226" data-mail="dada29650yhh@gmail.com">
+
+            <div class="msg_date">7월 27일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1325226">결혼 축하드립니다.</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1320835" data-croot="1320835">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1320835" data-mail="gean1121@naver.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1320835">동관</div>
+        <div data-area="guest" data-idx="1320835" data-mail="gean1121@naver.com">
+
+            <div class="msg_date">7월 17일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1320835">너마저 가는구나</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1319928" data-croot="1319928">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1319928" data-mail="kbn7021@hanmail.net"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1319928">대죽1리 김병남</div>
+        <div data-area="guest" data-idx="1319928" data-mail="kbn7021@hanmail.net">
+
+            <div class="msg_date">7월 15일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1319928">송선생님!<br />
+예쁘고 귀한 따님의 결혼을 진심으로 축하드리며 <br />
+고운정 차고넘치는 날들 되세요~^^~</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1319160" data-croot="1319160">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1319160" data-mail="dwcareercoach@gmail.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1319160">장두원</div>
+        <div data-area="guest" data-idx="1319160" data-mail="dwcareercoach@gmail.com">
+
+            <div class="msg_date">7월 13일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1319160">결혼 진심으로 축하드립니다. 항상 건강하세요.</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1304045" data-croot="1304045">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1304045" data-mail="do_ol2@naver.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1304045">플러밍</div>
+        <div data-area="guest" data-idx="1304045" data-mail="do_ol2@naver.com">
+
+            <div class="msg_date">6월 2일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1304045">서로 닮으신 두 분, 결혼 정말정말 축하드려요^^</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1302924" data-croot="1302924">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1302924" data-mail="kojinijini@naver.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1302924">도매니져</div>
+        <div data-area="guest" data-idx="1302924" data-mail="kojinijini@naver.com">
+
+            <div class="msg_date">5월 30일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1302924">너무 축하합니다~  두분  서로 아끼고 사랑하며 오래오래 행복하셨으면 좋겠어요!</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1301866" data-croot="1301866">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1301866" data-mail="ln52@naver.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1301866">늘하</div>
+        <div data-area="guest" data-idx="1301866" data-mail="ln52@naver.com">
+
+            <div class="msg_date">5월 28일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1301866">결혼 축하해요~두 사람의 행복 가득한 나날 보내세요~</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1301726" data-croot="1301726">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1301726" data-mail="yarn24@hotmail.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1301726">Paul</div>
+        <div data-area="guest" data-idx="1301726" data-mail="yarn24@hotmail.com">
+
+            <div class="msg_date">5월 28일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1301726">추카 추가 드립니다.<br />
+잼나게 행복하세요!</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1301222" data-croot="1301222">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1301222" data-mail="leakimarko@gmail.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1301222">김리나</div>
+        <div data-area="guest" data-idx="1301222" data-mail="leakimarko@gmail.com">
+
+            <div class="msg_date">5월 27일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1301222">결혼 축하축하 드려요!! 행복하세요~~</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1300594" data-croot="1300594">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1300594" data-mail="crackmc@hanmail.net"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1300594">서민정</div>
+        <div data-area="guest" data-idx="1300594" data-mail="crackmc@hanmail.net">
+
+            <div class="msg_date">5월 26일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1300594">오래오래 행복하세요</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1298215" data-croot="1298215">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1298215" data-mail="suya0999@naver.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1298215">지유명차 서초 이정수</div>
+        <div data-area="guest" data-idx="1298215" data-mail="suya0999@naver.com">
+
+            <div class="msg_date">5월 22일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1298215">두분 모두 축하드려요~ 행복하셔요~</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1298046" data-croot="1298046">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1298046" data-mail="jihyun.kim@gmx.de"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1298046">김지현</div>
+        <div data-area="guest" data-idx="1298046" data-mail="jihyun.kim@gmx.de">
+
+            <div class="msg_date">5월 22일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1298046">결혼 축하해요~ 앞으로도 예쁘고 멋진 사랑 가득가득하길요!</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1297975" data-croot="1297975">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1297975" data-mail="seed10@naver.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1297975">현수</div>
+        <div data-area="guest" data-idx="1297975" data-mail="seed10@naver.com">
+
+            <div class="msg_date">5월 22일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1297975">지희누나 축하해!! 평생 오래오래 행복하게 잘 살길!!</div>
+
+    
+</div>
+<div class="msg article_row guest_article" data-idx="1297956" data-croot="1297956">
+
+    <div class="msg_icon_wrapper">
+        <img class="msg_icon_img" src="https://bojagicard.com/g/img/guest_icon_nobody.png?hash=20211112a" data-idx="1297956" data-mail="jypsophia@naver.com"
+                    />
+    </div>
+
+    <div style="height: 45px; float: left;">
+        <div class="msg_name" data-idx="1297956">지영</div>
+        <div data-area="guest" data-idx="1297956" data-mail="jypsophia@naver.com">
+
+            <div class="msg_date">5월 22일</div>
+
+            
+                            <div class="msg_button msg_reply_button">답글달기</div>
+                        
+
+        </div>
+    </div>
+        <div class="msg_text guest_msg_memo" data-area='guest' data-idx="1297956">사랑하면 닮는다는데 그래서인지 완전 똑같은 두사람의 결혼을 진심으로 축하합니다</div>
+
+    
+</div>
+
+</div>
+
+
+
+</div>    </div>
+
+
+
+
+
+
+
+
+
+<div class="separator"></div>
+<script src="sns_kakao_link.js"></script>
+<script src="sns_kakaostory.js"></script>
+<style>
+.sns_button { cursor: pointer; margin-left: 5px; height: 30px; width: auto; }
+#kakaotalk_preview_wrapper {
+    border: 1px solid #31343c;
+    position: fixed;
+    z-index: 99;
+    top: 70px;
+    max-width: 310px;
+    display: none;
+}
+#kakaotalk_preview_inner {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    background-color: #ffffff;
+    min-width: 310px;
+    position: relative;
+}
+#kakaotalk_preview_close_button {
+    position: absolute;
+    cursor: pointer;
+    height: 35px;
+    width: auto;
+    right: 10px;
+    top: -18px;
+}
+
+#kakaotalk_preview_title {
+    /*background-color: #f2f2f2;*/
+    background-color: #ffeb33;
+    border-bottom: 1px solid #ececec;
+    font-family: 'Spoqa Han Sans';
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#kakaotalk_preview_body {
+    padding: 20px;
+}
+#kakaotalk_preview_notice_text {
+    font-size: 12px;
+    position: relative;
+}
+
+
+#kakaotalk_preview_notice_text_title {
+    border-bottom: 1px solid #ececec;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    width: 150px;
+}
+#kakaotalk_preview_notice_text_memo {
+    line-height: 18px;
+}
+#kakaotalk_preview_notice_text_memo span {
+    color: #fd4976;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+#kakaotalk_preview {
+    padding-right: 12px;
+    height: 202px;
+}
+#kakaotalk_preview_img {
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    /*
+    width: 110px;
+    */
+    width: 150px;
+    height: auto;
+}
+#kakaotalk_preview_mcard_title {
+    color: #333333;
+    font-size: 11px;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 16px;
+}
+
+
+
+#kakaotalk_preview_notice, #kakaotalk_preview_txt {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    background-color: #f2f2f2;
+    font-size: 12px;
+}
+#kakaotalk_preview_notice {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+#kakaotalk_preview_txt {
+    padding: 10px;
+    text-align: left;
+    word-break: break-all;
+    word-break : break-all;
+}
+
+#kakao-link-btn_wrapper {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+#kakao-link-btn {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #333333;
+    color: #333333;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 8px;
+    line-height: auto;
+    width: 100%;
+    text-align: center;
+    border-radius: 16px;
+    /*
+    position: absolute;
+    bottom: 0;
+    */
+    width: 148px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+</style>
+
+
+<div id="kakaotalk_preview_wrapper" class="mask_over">
+    <div id="kakaotalk_preview_inner">
+
+        <img id="kakaotalk_preview_close_button" src="https://bojagicard.com/g/img/btn_close_circle_01.png" />
+
+        <div id="kakaotalk_preview_title">카카오톡 미리보기</div>
+        <div id="kakaotalk_preview_body">
+            
+            <table cellspacing="0" cellpadding="0" align="center">
+                <tr valign="top">
+                    <td id="kakaotalk_preview" align="center">
+                        <img id="kakaotalk_preview_img" src="../m/img/loading6.gif" />
+                        <div id="kakaotalk_preview_mcard_title">정재원♡송지희의 모바일청첩장입니다.</div>
+                    </td>
+                    <!--
+                    <td id="kakaotalk_preview_notice_text">
+                        <div id="kakaotalk_preview_notice_text_title">이용시 유의사항</div>
+                        <div id="kakaotalk_preview_notice_text_memo">
+                            카카오톡 정책상 모바일청첩장 미리보기 이미지는 90일간 유지됩니다.
+                            유지시간 이후에는, 상황에 따라 이미지가 안보일 수 있으니,
+                            <span>가급적 예식 90일 내에 발송하시기를 추천</span>합니다.
+                        </div>
+                        <div id="kakao-link-btn_wrapper"><div id="kakao-link-btn">전송하기</div></div>
+                    </td>
+                    -->
+                </tr>
+                <tr>
+                    <td align="center">
+                        <div id="kakao-link-btn_wrapper"><div id="kakao-link-btn">전송하기</div></div>
+                    </td>
+                </tr>
+            </table>
+
+            
         </div>
 
 
+        
     </div>
 </div>
-</div>
-<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="giftMailModal" role="dialog"
-     tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">선물하기 - <span id="gift-name"></span></h5>
-                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">보내는 분 성함</span>
-                    </div>
-                    <input aria-describedby="basic-addon3" class="form-control" id="sender-name" type="text">
-                </div>
-                <div class="input-group">
-                    <textarea aria-label="With textarea" class="form-control" id="sender-message"
-                              placeholder="신랑, 신부에게 선물 예약과 함께 보낼 메시지를 입력해주세요. 이 메시지는 신랑, 신부에게 발송됩니다." rows=4></textarea>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-primary" id="reserveGiftButton" type="button">예약</button>
-            </div>
+
+
+<div class="section_wrapper" style="background-color: #21242d; padding-top: 20px; padding-bottom: 20px;">
+
+    <table align="center" cellspacing="0" cellpadding="0">
+    	<tr align="center">
+    <!-- 카카오톡 -->
+        
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script>
+    Kakao.init('a3f20d418a8376972d8ae095212e5446');
+    Kakao.Link.createDefaultButton({
+      container: '#kakao-link-btn',
+      objectType: 'feed',
+      content: {
+        title: '정재원♡송지희의 모바일청첩장입니다.',
+        imageUrl: 'http://bojagicard.com/scene/sg/sghjjw/merge.jpg?1676717466',
+        imageWidth: 640,
+        imageHeight: 1280,
+        link: {
+          mobileWebUrl: 'http://bojagicard.com/sghjjw',
+          webUrl: 'http://bojagicard.com/sghjjw'
+        }
+      },
+      buttons: [
+        {
+          title: '모바일청첩장 바로가기',
+          link: {
+            mobileWebUrl: 'http://bojagicard.com/sghjjw',
+            webUrl: 'http://bojagicard.com/sghjjw'
+          }
+
+        }
+      ]
+    });
+    </script>
+
+    <td width="25%">
+        <img class="sns_button" align="absmiddle" src="https://bojagicard.com/g/img/sns_button_kakao_talk.png" onclick="kakaotalk_preview()" />
+    </td>
+    <!-- 카카오톡 -->    
+        <!-- 라인 -->
+        <td width="25%">
+            <a href="javascript:sns_share_line();"><img class="sns_button" align=absmiddle src="https://bojagicard.com/g/img/sns_button_line.png" /></a>
+<script>
+$(function() {
+
+
+    //PREVIEW RESTORE TO LOADING
+    $('#kakao-link-btn').bind('click', function() {
+        setTimeout(function() {
+            mask(0)
+            $('#kakaotalk_preview_img').attr('src', '../m/img/loading6.gif')
+        }, 500)
+        $.get('_sns_kakaotalk_sent.php?uid=sghjjw&logon_id=&image_url=http://bojagicard.com/scene/sg/sghjjw/merge.jpg?1676717466')
+    })
+
+    $('#kakaotalk_preview_close_button').bind('click', function() {
+        mask(0)
+        $('#kakaotalk_preview_img').attr('src', '../m/img/loading6.gif')
+    })
+
+
+
+})
+
+
+function sns_share_line() {
+    var shareInfo = '정재원♡송지희의 모바일청첩장입니다.\n'
+    shareInfo += 'http://bojagicard.com/' + uid
+    var url = "http://line.me/R/msg/text/?" + encodeURIComponent(shareInfo)
+    var a = window.open(url, 'Line', '')
+    if (a) a.focus()
+}
+function kakaotalk_preview() {
+
+   
+    mask(0.7)
+    $('#kakaotalk_preview_wrapper').show()
+
+    var left_px = $('#wrapper').offset().left + ($('#wrapper').width() - $('#kakaotalk_preview_wrapper').width()) / 2
+    
+    $('#kakaotalk_preview_wrapper').css({
+        'left': left_px+'px'
+    })
+
+    setTimeout(function() {
+    }, 100)
+
+
+    if (uid == 'snows135') {
+
+        setTimeout(function() {
+            $.ajax({
+                async: false,
+                url: '/g/scene_merge.php?ecard='+uid,
+                success: function(data) {
+    
+                    var unix = Math.round(+new Date()/1000);
+                    var img_src = '/scene/sg/sghjjw/merge.jpg?hash='+unix
+                    $('#kakaotalk_preview_img').attr('src', img_src)
+    
+                }
+            })
+        }, 200)
+
+    } else {
+
+        setTimeout(function() {
+            $.ajax({
+                async: false,
+                url: '/common/scene_text_gen.php?uid='+uid,
+                success: function(data) {
+        
+                    $.ajax({
+                        async: false,
+                        url: '/g/scene_merge.php?ecard='+uid,
+                        success: function(data) {
+        
+                            var unix = Math.round(+new Date()/1000);
+                            var img_src = '/scene/sg/sghjjw/merge.jpg?hash='+unix
+                            $('#kakaotalk_preview_img').attr('src', img_src)
+        
+                        }
+                    })
+        
+                }
+            })
+        }, 200)
+
+    }
+
+
+}
+</script>
+        </td>
+
+
+    <!-- 카카오스토리 (크롬만 UTF8, urlencode) -->
+    <script>
+        function executeKakaoStoryLink() {
+    
+        kakao.link('story').send({
+            post : '정재원♡송지희의 모바일청첩장입니다. http://bojagicard.com/sghjjw',
+            appid : 'm.bojagicard.com',
+            appver : '1.0',
+            appname : '모바일청첩장',
+            urlinfo : JSON.stringify({title:'정재원♡송지희의 모바일청첩장', desc:"http://bojagicard.com/sghjjw", imageurl:["http://bojagicard.com/scene/sg/sghjjw/merge.jpg?t=1676717466"], type:"article"})
+        });
+    
+    }
+    </script>
+    <td width="25%"><a onclick="" href="_sns_kakaostory_img.php?uid=sghjjw&post=정재원♡송지희의 모바일청첩장입니다. http://bojagicard.com/sghjjw&appid=m.bojagicard.com&appver=1.0&apiver=1.0&appname=모바일청첩장&title=정재원♡송지희의 모바일청첩장&desc=http://bojagicard.com/sghjjw&imageurl=http://bojagicard.com/scene/sg/sghjjw/merge.jpg"><img class=sns_button align=absmiddle src=https://bojagicard.com/g/img/sns_button_kakao_story.png /></a><!--  onclick='return not_for_pc()' -->
+    <!-- 카카오스토리 -->
+    
+    
+    
+    
+    <!-- 페이스북 -->
+    <td width="25%"><a target=_blank href="http://m.facebook.com/sharer.php?u=http://bojagicard.com/g/home.php?ecard=sghjjw"><img class="sns_button" align=absmiddle src="https://bojagicard.com/g/img/sns_button_facebook.png" /></a> <!-- // 페이스북 링크등록 로봇때문에 http://DOMAIN/USERID 사용불가 -->
+    <!-- 페이스북 -->
+    
+    </table>
+
+
+</div><!-- section_wrapper end -->
+
+<style>
+#tail_menu_section {
+        /* display: none; */
+    }
+.tail_menu_row {
+    border-top: 1px solid #47494f;
+    color: #cccccc;
+    cursor: pointer;
+    font-size: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+</style>
+
+<div id="tail_menu_section" style="background-color: #21242d;">
+
+    <div class="section_wrapper">
+        <div class="tail_menu_row" id="tail_button_config">설정하기</div>
+        <div class="tail_menu_row" id="tail_button_support">고객센터</div>
+                <div class="tail_menu_row" id="tail_button_login">로그인 / 회원가입</div>
+        <!--<div class="tail_menu_row" id="tail_button_join">만들기</div>-->
+                <div class="tail_menu_row" id="tail_company_logo" style="padding-top: 20px; padding-bottom: 20px; text-align: center;">
+    		<a target="_blank" href="/card/doc/other/mobile/mobile_ecard.php"><img src="https://bojagicard.com/g/img/tail_company_logo.png?hash=20211112a" height="18" /></a>
         </div>
     </div>
-</div>
-<footer></footer>
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="js/aos.js"></script>
-<script src="js/parallax.min.js"></script>
-<script src="js/ekko-lightbox.min.js"></script>
-<script src="scripts/main.js"></script>
 
-<div class="bottom_right"><i class="fa fa-arrow-up fa-2x" id="go-to-top"></i>
 </div>
 
-<div class="bottom_left">
-    <audio id="player" src="mus.mp3"></audio>
-    <div>
-        <i class="fa fa-music fa-2x" onclick="document.getElementById('player').play()"></i>
+
+<div id="tail_block">
+
+<script>
+var s_url = location.href
+$(function() {
+
+    $('#tail_button_login').bind('click', function(){  //로그인
+        location.href = 'user_login.php?uid='+uid+'&s_url='+s_url
+    })
+    $('#tail_button_logout').bind('click', function(){  //로그아웃
+        var url = window.location.pathname
+        var filename = url.substring(url.lastIndexOf('/')+1)        
+        if (filename == 'mcard_admin.php') s_url = 'http://bojagicard.com/'+uid
+        location.href = 'user_logout.php?uid='+uid+'&s_url='+s_url
+    })
+    $('#tail_button_join').bind('click', function(){  //만들기
+        location.href = 'user_join.php?uid='+uid+'&s_url='+s_url
+    })
+    $('#tail_button_config').bind('click', function(){  //설정하기
+        var config_page_url = '/m/mcard_admin.php?uid='+uid+'&s_url='+s_url
+        location.href = config_page_url
+    })
+    $('#tail_button_support').bind('click', function(){  //고객센터
+        window.open('/m/cs.php?type=mcard')
+    })
+
+})
+
+
+
+function not_for_pc() {
+				alert("모바일 환경에서 사용가능한 기능입니다")
+			return false
+	}
+
+</script>
+
+
+
+
+
+<div style="clear:both;"></div>
+
+
+
+</div><!-- tail block -->
+
+
+
+<div id="doc_bottom"></div>
+
+
+
+
+</div><!-- wrapper -->
+
+
+<style>
+#photo_view {
+    /* !! Do not set display none here !! */
+    background-color: white;  /* background-color: #b5b7ba; */
+    padding-bottom: 170px;  /* reply_add_wrapper height is 140px */
+}
+#photo_view_top {
+    background-color: #262b3e;
+    height: 45px;
+    vertical-align: middle;
+    position: relative;
+}
+#photo_view_title {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    height: 45px;
+    line-height: 48px;
+    padding-left: 18px;
+}
+
+#photo_view_top_dummy {
+    height: 45px;
+    display: none;
+}
+
+#photo_view_close_button {
+    cursor: pointer;
+    height: 45px;
+    width: auto;
+    position: absolute; right: 0; top: 0;
+}
+#photo_view_menu_open_button {
+    cursor: pointer;
+    width: auto;
+    height: 100%;
+    position: absolute; right: 0; top: 0;
+}
+
+
+.photo_view_img_wrapper {
+    position: relative;
+}
+.photo_view_img {
+    width: 100%;
+}
+.photo_view_swipe_guide {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    top: 38%;
+    z-index: 99;
+    display: none;
+}
+
+
+
+
+#photo_view_console td {
+    line-height: auto;
+    font-size: 14px;
+}
+
+.swiper-slide {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.photo_view_mid {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    border-bottom: 1px solid #eaeaea;
+    height: 55px;
+    line-height: 55px;
+    position: relative;
+}
+.photo_view_slide_button {
+    height: 19px;
+    position: absolute;
+    top: 17px;
+}
+
+.photo_view_memo {
+    font-size: 12px;
+    padding-top: 20px;
+}
+.photo_reply_counter {
+    line-height: 100%; padding-left: 7px; padding-right: 15px;
+}
+</style>
+
+<div id="photo_view">
+
+    <div id="photo_view_top">
+        <div id="photo_view_title">PHOTO</div>
+        <img id="photo_view_close_button" src="https://bojagicard.com/g/img/button_x_01_with_bg.png" />
     </div>
+
+    <div id="photo_view_top_dummy"></div>
+
+
+    <div id="photo_container" class="swiper-container">
+
+        <div class="swiper-wrapper">
+        <br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/home/hosting_users/bojagitest/www/g/photo_view.php</b> on line <b>112</b><br />
+        </div><!-- swiper-wrapper end -->
+
+    </div>
+
 </div>
+
+
+<style>
+.guest_user_input {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    background-color: #f8f8f8;
+    border: 1px solid #ececec;
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 11px;
+}
+
+</style>
+
+<div class="mask_over form_layer" id="guest_user_form" style="font-size: 12px;">
+
+    <img class="form_close_button" id="guest_user_form_close_button" src="https://bojagicard.com/g/img/button_x_01_black.png" height="17" />
+    <div class="form_title">
+        이름과 이메일을 입력하시면<br />
+        등록이 완료됩니다!
+    </div>
+
+    <div><input type="text" class="guest_user_input" name="guest_user_name" id="guest_user_name" maxlength="50" placeholder="이름(본인이름)" value="" /></div>
+    <div><input type="text" class="guest_user_input" name="guest_user_mail" id="guest_user_mail" maxlength="99" placeholder="이메일(댓글 알림 및 글 수정 용도)" value="" /></div>
+    <div style="padding-top: 5px; padding-bottom: 10px;">
+        <div class="register_button" id="guest_user_form_submit_button">등록하기</div>
+    </div>
+
+</div>
+
+<script>
+function email_check(email) {
+
+    var result = true
+    var re = /^[a-z0-9@.\-_]+$/i
+    result = re.test(email)
+
+    if (result) {
+        re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        result = re.test(email)
+    }
+
+    return result
+
+}
+
+
+$(function(){
+
+
+    //Guest form submit
+    $('#guest_user_form_submit_button').on('click', function(){
+
+        if ($('input[name=guest_user_name]').val().length < 2) {
+    
+            alert('이름을 입력해주세요')
+            $('input[name=guest_user_name]').focus()
+    
+        } else if ($('input[name=guest_user_mail]').val().length < 8) {
+    
+            alert('메일주소를 확인해주세요.')
+            $('input[name=guest_user_mail]').focus()
+    
+        } else if (email_check($('input[name=guest_user_mail]').val()) == false) {
+
+            alert('메일주소를 확인해주세요.')
+            $('input[name=guest_user_mail]').focus()
+
+        } else {
+
+            var user_name = $('input[name=guest_user_name]').val().trim()
+            var user_mail = $('input[name=guest_user_mail]').val().trim()
+            $.cookie('mcard_guest_user_name', user_name, { 'path': '/', 'expires': 10*365 })
+            $.cookie('mcard_guest_user_mail', user_mail, { 'path': '/', 'expires': 10*365 })
+
+            $('#guest_user_form').hide()
+            mask(0)
+
+            reply_send()
+    
+        }
+
+    })
+
+})
+
+
+</script>
+
+
+
+<!-- 메뉴 -->
+<style>
+#photo_view_menu {
+    display: none;
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    position: fixed; z-index: 11; top: 60px; background-color: #ffffff;
+    padding: 20px;
+}
+
+#photo_view_menu div {
+    cursor: pointer;
+    font-size: 12px; line-height: 30px;
+}
+
+.photo_view_heart_button {
+    line-height: 100%; cursor: pointer;
+}
+.photo_view_heart_count {
+    line-height: 100%; padding-left: 7px; padding-right: 15px;
+}
+#photo_view_slide_left_button, #photo_view_slide_right_button {
+    cursor: pointer;
+}
+</style>
+
+<div class="mask_over" id="photo_view_menu">
+    </div>
+
+
+
+
+
+<script>
+var slider
+var use_photo_comment = '1';
+var use_photo_zoom = false;
+
+function photo_view(obj) {
+
+    mask(0.5)
+
+    photo_idx = $(obj).data('photo_idx')
+
+    var slide_to = Number($(obj).data('photo_no')) - 1
+    console.log(slide_to)
+    slider.slideTo(slide_to, 0)
+
+    //console.log($('.photo_view_img[data-photo_idx='+photo_idx+']').attr('src'))
+    $('.photo_view_img[data-photo_idx='+photo_idx+']').each(function(){
+        $(this).attr('src', $(this).attr('src').replace('reqfor=load', 'reqfor=view'))
+    })
+    
+
+
+    //뺴꼼
+    $('#photo_view').css({
+        'display': 'block', 
+        'position': 'fixed', 
+        'z-index': '3', 
+        'top': (window.innerHeight-42)+'px', 
+        'left': $('#photo_row').offset().left
+    })
+
+
+    //슬라이드 업
+    setTimeout(function(){
+
+        $('#photo_view').animate({ top: 0 }, 250, function(){
+    
+            $('#wrapper').hide()
+            $('#photo_view').css({ 'position': 'static' })
+            window.scrollTo(0, 0)
+            
+            $('#photo_view_top').css({
+                'position': 'fixed',
+                'z-index': '3', 
+                'top': 0, 
+                'left': wrapper_left_margin,
+                'width': wrapper_width
+            })
+
+            $('#photo_view_top_dummy').css({
+                'display': 'block'
+            })
+            
+            if (use_photo_comment == 1) {
+                reply_add_row_visible = true
+                $('#reply_add_wrapper').css({ 'bottom': 0 })
+                msg_textarea_init()
+            }
+    
+        })
+        
+    },300)
+
+
+    setTimeout(function(){
+
+        mask(0)
+
+    },600)
+
+}
+
+
+function photo_view_close() {
+
+    $('#photo_view').css({ 'display': 'none', 'bottom': '00px', 'width': wrapper_width+'px' })
+    $('#wrapper').css({ 'display': 'block' })
+    window.scrollTo(0, $('#photo_row').offset().top-45)
+
+    $('#photo_view_top_dummy').hide()
+    $('#photo_view_top').css({
+        'position': 'static',
+        'top': 0, 
+        'left': 0,
+        'width': wrapper_width
+    })
+
+    msg_textarea_init()
+
+}
+
+
+function photo_heart(idx) {
+    if (confirm('좋아요 하트를 추가할까요?')) {
+
+        $.get('photo_view_heart_proc.php?idx='+idx, function(data) {  //return as json
+
+            var result = JSON.parse(data)
+            
+            if (result.error_code == 0) {
+
+                $('.photo_view_heart_count[data-idx='+idx+']').text(result.heart_count)
+                $.cookie('mcard_heart['+idx+']', 1, { 'path': '/', 'expires': 10*365 })
+
+            } else if (result.error_code == 2) {
+
+                alert('이미 좋아요 하셨습니다')
+
+            }
+
+        })
+
+    }
+}
+
+
+function photo_write(idx) {
+    var url = 'photo_write.php?ecard=sghjjw'
+    if (idx > 0) url = 'photo_write.php?ecard=sghjjw&idx='+photo_idx
+    location.href = url
+}
+
+
+function photo_delete() {
+    if (confirm('사진과 함께 댓글도 모두 삭제됩니다.\n\n삭제하시겠습니까?')) {
+        location.href = 'photo_del_proc.php?uid=sghjjw&idx='+photo_idx
+    }
+}
+
+
+
+$(function(){
+
+    $('.photo_view_img, .photo_view_video').bind('click', function(){})
+
+    //if (uid == 'onave') use_photo_zoom = true;
+    if (navigator.userAgent.indexOf('Mobile') > -1 && navigator.userAgent.indexOf('Android') > -1) {
+        if (navigator.userAgent.indexOf('Chrome/8') > -1) use_photo_zoom = true;
+        if (navigator.userAgent.indexOf('KAKAOTALK') > -1) use_photo_zoom = true;
+        if (navigator.userAgent.indexOf('NAVER') > -1) use_photo_zoom = true;
+    }
+    
+    if (use_photo_zoom) {
+    $('.photo_view_img').bind('click', function(){
+        console.log($(this).data('src_original'))
+        window.open('photo_view_zoom.php?src='+$(this).data('src_original'),'','');
+    })
+    }
+
+    $('.photo_view_video').bind('click', function(){
+        window.open('https://mcard1.bojagicard.com/mcard/photo_view_zoom.php?fn='+$(this).data('src_original'));  // 2019.10.15 video only sep
+    })
+
+
+    $('#photo_view_close_button').on('click', function(){
+        photo_view_close()
+    })
+
+    //Photo menu style
+    $('#photo_view_menu').width(wrapper_width-60)
+    $('#photo_view_menu').css('left', wrapper_left_margin+30+'px')
+
+
+    $('#photo_view_slide_left_button').live('click', function(){
+        slider.slidePrev()
+    })
+
+    $('#photo_view_slide_right_button').live('click', function(){
+        slider.slideNext()
+    })
+
+    $('#photo_view_menu_open_button').live('click', function(){
+        photo_idx = $(this).data('idx')
+        mask(0.7)
+        $('#photo_view_menu').show()
+    })
+
+    $('.photo_view_heart_button').live('click', function(){
+        var idx = $(this).data('idx')
+        photo_heart(idx)
+    })
+
+    $('.photo_view_edit_button').live('click', function(){
+        photo_write(photo_idx)
+    })
+
+
+
+
+    /*
+        initialize photo view
+                                 */
+
+    $('#photo_view').css({
+        'margin': 'auto',
+        'width': wrapper_width+'px'
+    })
+
+    $('#photo_container').css({
+        'width': wrapper_width+'px'
+    })
+
+    slider = new Swiper(document.getElementById('photo_container'), {
+    
+    	loop: false,
+    	autoHeight: false,
+    	on: {
+    	    slideChangeTransitionStart: function(e){
+                photo_idx = $('img[data-photo_no='+(slider.activeIndex+1)+']').data('photo_idx')
+                $('.photo_view_img[data-photo_idx='+photo_idx+']').each(function(){
+                    $(this).attr('src', $(this).attr('src').replace('reqfor=load', 'reqfor=view'))
+                })
+            },
+    	    slideChangeTransitionEnd: function(e){
+    
+                photo_idx = $('img[data-photo_no='+(slider.activeIndex+1)+']').data('photo_idx')
+    
+    	        if ($('#photo_view_animater').length == 0) {
+    	            if ($('#photo_view').css('display') != 'none') {
+    	                $('html, body').animate({ scrollTop: 0 }, 100)
+    	            }
+    	        }
+    	        
+    	        $.cookie('photo_view_swiped_check', 1)
+                $('.photo_view_swipe_guide').hide()
+
+
+    
+            }
+    	}
+    
+    })
+
+    $('#photo_view').hide()
+
+    //스와이프 가이드 화살표 이미지
+    if (!$.cookie('photo_view_swiped_check')) {
+        $('.photo_view_swipe_guide').show()
+    }
+
+})
+
+</script>
+<style>
+#msg_emoticon_list_wrapper {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    border: 1px solid #999999;
+    position: fixed; z-index: 11; top: 50px; background-color: #ffffff;
+    height: 122px;
+    width: 320px;
+    padding-top: 15px;
+    opacity: 0;
+    }
+#msg_emoticon_list_swiper_wrapper {
+    position: relative;
+    margin: auto;
+    width: 320px;
+}
+.msg_emoticon_list_img {
+    height: 40px; width: 40px; margin: 15px;
+}
+.msg_emoticon_list_lr_button {
+    height: 15px;
+    width: auto;
+    position: absolute;
+    top: 42px;
+}
+#msg_emoticon_list_l_button {
+    left: 15px;
+}
+#msg_emoticon_list_r_button {
+    right: 15px;
+}
+#msg_emoticon_list_pagination {
+    width: 100%;
+}
+.swiper-pagination-bullet {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.swiper-pagination-bullet:last-child {
+    margin-right: 0;
+}
+.swiper-pagination-bullet-active {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    background-color: #fff;
+    border: 2px solid #fe86a4;
+}
+</style>
+
+
+
+<div class="mask_over" id="msg_emoticon_list_wrapper">
+
+    <div id="msg_emoticon_list_swiper_wrapper">
+    
+        <div class="swiper-container" id="msg_emoticon_list_swiper">
+            <div class="swiper-wrapper">
+                                                        <div class="swiper-slide">
+                                            <img class="msg_emoticon_list_img" src="https://bojagicard.com/g/img/emo01.png" data-emo="emo01.png" />
+                                                                                <img class="msg_emoticon_list_img" src="https://bojagicard.com/g/img/emo02.png" data-emo="emo02.png" />
+                                                                                <img class="msg_emoticon_list_img" src="https://bojagicard.com/g/img/emo03.png" data-emo="emo03.png" />
+                                                                                <img class="msg_emoticon_list_img" src="https://bojagicard.com/g/img/emo04.png" data-emo="emo04.png" />
+                                        </div>
+                                                                            <div class="swiper-slide">
+                                            <img class="msg_emoticon_list_img" src="https://bojagicard.com/g/img/emo05.png" data-emo="emo05.png" />
+                                                                                <img class="msg_emoticon_list_img" src="https://bojagicard.com/g/img/emo06.png" data-emo="emo06.png" />
+                                                                                <img class="msg_emoticon_list_img" src="https://bojagicard.com/g/img/emo07.png" data-emo="emo07.png" />
+                                                                                <img class="msg_emoticon_list_img" src="https://bojagicard.com/g/img/emo08.png" data-emo="emo08.png" />
+                                        </div>
+                                                                            <div class="swiper-slide">
+                                            <img class="msg_emoticon_list_img" src="https://bojagicard.com/g/img/emo09.png" data-emo="emo09.png" />
+                                                                                <img class="msg_emoticon_list_img" src="https://bojagicard.com/g/img/emo10.png" data-emo="emo10.png" />
+                                                                                <img class="msg_emoticon_list_img" src="https://bojagicard.com/g/img/emo11.png" data-emo="emo11.png" />
+                                                                                <img class="msg_emoticon_list_img" src="https://bojagicard.com/g/img/emo12.png" data-emo="emo12.png" />
+                                        </div>
+                                                </div>
+        </div>
+
+    </div>
+
+    <img class="msg_emoticon_list_lr_button" id="msg_emoticon_list_l_button" src="https://bojagicard.com/g/img/msg_emoticon_list_l_button.png" />
+    <img class="msg_emoticon_list_lr_button" id="msg_emoticon_list_r_button" src="https://bojagicard.com/g/img/msg_emoticon_list_r_button.png" />
+    <div class="swiper-pagination" id="msg_emoticon_list_pagination"></div>
+
+
+</div>
+
+
+
+<script>
+var msg_emoticon_idx = 0
+var msg_emoticon_slider
+
+msg_emoticon_slider = new Swiper(document.getElementById('msg_emoticon_list_swiper'), {
+	loop: false,
+	autoHeight: false,
+        pagination: {
+            el: '.swiper-pagination'
+        }
+})
+
+
+$(function(){
+
+    /*
+         EMOTICON
+                     */
+
+    //이모티콘 아이콘 클릭시 (리스트 노출)
+    $('.msg_icon_img').live('click', function(){
+
+        if ($(this).data('mail') == $.cookie('mcard_guest_user_mail') || uid == 'sample101') {
+            msg_emoticon_idx = $(this).data('idx')
+            $('#msg_emoticon_list_wrapper').show()
+            mask(0.4)
+        }
+
+    })
+
+
+    //이모티콘 리스트 초기화
+    setTimeout(function(){
+        $('#msg_emoticon_list_wrapper').css({
+            'width': $('#wrapper').width()+'px',
+            'left': $('#wrapper').offset().left+'px'
+        })
+        $('#msg_emoticon_list_swiper_wrapper').css({
+            'width': $('#wrapper').width()-60+'px'
+        })
+    }, 200)
+
+    //이모티콘 리스트 슬라이더 적용
+    setTimeout(function(){
+    }, 1000)
+
+    //이모티콘 리스트 숨김처리
+    setTimeout(function(){
+        $('#msg_emoticon_list_wrapper').css({
+            'opacity': '1',
+            'display': 'none'
+        })
+    }, 1200)
+
+
+    //이모티콘 리스트에서, 사용할 이모티콘 선택했을시
+    $('.msg_emoticon_list_img').live('click', function(){
+
+        var idx = msg_emoticon_idx
+        var emo = $(this).data('emo')
+        var url = '_msg_emo_proc.php?uid='+uid+'&area=guest&idx='+idx+'&emo='+emo
+        $.get(url)
+
+        $('.msg_icon_img[data-idx='+msg_emoticon_idx+']').attr('src', $(this).attr('src'))
+        $('#msg_emoticon_list_wrapper').hide()
+        mask(0)
+
+    })
+
+    //슬라이드 좌-우 버튼
+    $('#msg_emoticon_list_l_button').live('click', function(){
+        msg_emoticon_slider.slidePrev()
+    })
+    $('#msg_emoticon_list_r_button').live('click', function(){
+        msg_emoticon_slider.slideNext()
+    })
+
+
+})
+
+
+$(window).bind('scroll', function() {
+
+    $('#msg_emoticon_list_wrapper').hide()
+
+})
+
+
+</script><style>
+#reply_add_row {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+#reply_submit_button {
+    /*
+    border-color: #8d9398;
+    color: #8d9398;
+    */
+    border-color: #8d9398;
+    color: #333333;
+}
+#msg_textarea {
+    
+}
+.msg_textarea_heart {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    background-image: url('https://bojagicard.com/g/img/mcard_msg_placeholder_heart.png');
+    background-repeat: no-repeat;
+    background-position: 13px 11px;
+    background-size: 12px 13px;
+    /* text-indent: 20px; */
+    padding-left: 27px;
+    
+}
+
+#reply_add_wrapper {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #cfcfcf;
+    width: 100%;
+}
+</style>
+
+
+<div id="reply_add_wrapper">
+
+    <div id="reply_add_row">
+    
+        <div style="padding-bottom: 10px;">
+            <textarea class="textarea_single_row msg_textarea_heart" id="msg_textarea" alt="1"></textarea>
+        </div>
+        
+        <div class="register_button" id="reply_submit_button">
+            등록하기
+        </div>
+    
+    </div>
+
+</div>
+
+<div id="reply_add_wrapper_shadow"></div>
+
+
+<script>
+var msg_textarea_length = 0
+
+function msg_textarea_init() {
+
+    var reply_placeholder = '축하 메시지를 남겨주세요'
+    if ($('#photo_view').css('display') != 'none') var reply_placeholder = '사진에 댓글을 남겨주세요'
+
+    if ($.cookie('mcard_guest_user_name')) {
+        reply_placeholder = $.cookie('mcard_guest_user_name')+'님, '+reply_placeholder
+    }
+    
+    $('#msg_textarea').attr('placeholder', reply_placeholder)
+                        .attr('placeholder_default', reply_placeholder)
+
+}
+
+
+
+$(function(){
+
+    setTimeout(function(){
+        $('#reply_add_wrapper_shadow').css({
+            //'background-color': $('#reply_add_wrapper').css('background-color')
+            'background-color': '#21242d',
+            'height': $('#reply_add_wrapper').height() + 50 + 'px',
+            'width': $('#wrapper').css('width'),
+            'margin': 'auto'
+        })
+        
+    }, 100)
+
+
+    //축하글, 사진댓글 입력란 초기화
+    msg_textarea_init()
+
+    setTimeout(function(){
+        $('#reply_add_wrapper').css({
+            'bottom': (0-$('#reply_add_wrapper').outerHeight())+'px',
+            'position': 'fixed',
+            'z-index': '5',
+            'width': $('#wrapper').width()+'px',
+            'left': $('#wrapper').offset().left+'px'
+        })
+    }, 100)
+
+
+
+    // ** [등록하기] 버튼 상황따라 활성 <-> 비활성
+    $('#msg_textarea').on('keyup', function(e){
+
+        if (msg_textarea_length == 0 && e.keyCode == 8) {
+            msg_root = 0
+            msg_textarea_init()
+        }
+
+        if ($(this).val().trim().length > 0) {
+            $(this).removeClass('msg_textarea_heart')
+            $('#reply_submit_button').css({
+                'color': '#ffffff',
+                'border-color': '#ffffff'
+            })
+        } else {
+            $(this).addClass('msg_textarea_heart')
+            $('#reply_submit_button').css({
+                'color': '#8d9398',
+                'border-color': '#8d9398'
+            })
+        }
+
+        msg_textarea_length = $(this).val().length
+
+    })
+
+
+    // ** [등록하기] 클릭시
+    $('#reply_submit_button').on('click', function(){
+
+        if ($('#photo_view').css('display') == 'none') msg_area = 'guest'
+        else msg_area = 'photo'
+            
+        if ($('input[name=guest_user_name]').val().length > 0 && $('input[name=guest_user_mail]').val().length > 2) {
+
+            if ($('#msg_textarea').val().trim().length > 0) {
+                reply_send()
+            }
+
+        } else { 
+
+            mask(0.5)
+            $('#guest_user_form').css({
+                'display': 'block',
+                'left': wrapper_left_margin+'px',
+                'width': wrapper_width+'px'
+            })
+
+        }
+
+    })
+
+
+})
+
+function rawurlencode(str) {
+
+    str = (str + '').toString();
+
+    return encodeURIComponent(str)
+
+        .replace(/!/g, '%21')
+
+        .replace(/'/g, '%27')
+
+        .replace(/\(/g, '%28')
+
+        .replace(/\)/g, '%29')
+
+        .replace(/\*/g, '%2A');
+
+}
+
+
+function reply_send() {
+
+    //댓글 위치 잡기
+    var parent_idx = null
+    var reply_loading_html = '<div id="reply_loading" style="text-align: center; background-color: #bbbbbb; height: 50px; line-height: 50px;"><img id="reply_loading_img" src="https://bojagicard.com/g/img/loading4.gif" height="20" style="vertical-align: middle;" /></div>'
+
+    if (msg_area == 'photo') {
+        parent_idx = photo_idx
+        if (msg_root == 0) $('.reply_list[data-idx='+photo_idx+']').prepend(reply_loading_html)  //사진댓글 리스트 상단
+        else $('.msg[data-idx='+msg_root+']').after(reply_loading_html)  //원댓글 하단
+    }
+
+    if (msg_area == 'guest') {
+
+
+        parent_idx = 0
+
+        var msg_root_croot = $('.msg[data-idx='+msg_root+']').data('croot')
+
+        if (msg_root == 0) {
+
+            //축하글 등록
+            $('#guest_article_list').prepend(reply_loading_html)  //축하글 리스트 상단
+
+        } else if (msg_root == msg_root_croot) {
+
+            //축하글에 댓글 등록
+            $('.msg[data-idx='+msg_root+']').children('.guest_msg_memo').after(reply_loading_html)  //축하글 텍스트 바로뒤
+        
+        } else {
+
+            //축하글에 대댓글 등록
+            $('.msg[data-idx='+msg_root+']').after(reply_loading_html)
+
+        }
+
+    }
+
+
+    //데이터 가공
+    var user_name = $('input[name=guest_user_name]').val().trim()
+    var user_mail = $('input[name=guest_user_mail]').val().trim()
+    var memo = encodeURIComponent($('#msg_textarea').val().trim())
+    var post_data = {
+        'uid': uid,
+        'area': msg_area,
+        'parent': parent_idx,
+        'croot': msg_root,
+        'croot_name': encodeURIComponent('@'+$('.msg_name[data-idx='+msg_root+']').text()),
+        'name': encodeURIComponent(user_name),
+        'mail': user_mail,
+        'memo': memo,
+        'notify': $('input[name=reply_notify]').val(),
+        'send_type': 'ajax'
+    }
+
+
+    //전송
+    var proc_url = '_msg_proc.php'
+    $.ajax({
+    
+        type: 'POST',
+        url: proc_url,
+        data: post_data,
+        //contentType: 'application/x-www-form-urlencoded;charset=euc-kr',
+        beforeSend: function(jqXHR) {
+            jqXHR.overrideMimeType('application/x-www-form-urlencoded;charset=euc-kr')
+        },
+        success: function(data) {
+
+            var scroll_to = 0
+            if (msg_area == 'photo' && msg_root == 0) scroll_to = $('.reply_list[data-idx='+photo_idx+']').offset().top-(window.innerHeight/3*2)
+            if (msg_area == 'photo' && msg_root  > 0) scroll_to = $('#reply_loading').offset().top-(window.innerHeight/3)
+            if (msg_area == 'guest' && msg_root == 0) scroll_to = $('#guest_article_list').offset().top-(window.innerHeight/3*2)
+            if (msg_area == 'guest' && msg_root  > 0) scroll_to = $('#reply_loading').offset().top-(window.innerHeight/3)
+            $('html, body').animate({ scrollTop: scroll_to }, 'fast')
+
+            $('#msg_textarea').val('')
+            $('#msg_textarea').prop('rows', 1)
+            $('#msg_textarea').attr('rows', 1)
+
+            setTimeout(function(){
+
+                $('#reply_loading_img').remove()
+                $('#reply_loading').animate({ backgroundColor: '#ffffff' }, 500, function(){
+
+                    msg_root = 0
+                    $('#reply_loading').replaceWith(data)
+
+                    if (msg_area == 'photo') photo_reply_update(photo_idx)
+
+                })
+
+            }, 500)
+
+        },
+        error: function(xhr, textStatus) {
+            console.log(xhr.responseText)
+        }
+    
+    })
+
+
+}
+
+
+
+
+
+
+
+
+
+/*
+    스크롤 영역에 따른 입력란 노출, 숨김 처리
+                                                */
+
+
+
+
+var reply_add_row_visible = false
+
+$(window).bind('scroll', function(){
+    
+
+    if ($('#guest_row').length > 0 && $('#photo_view').css('display') == 'none') {
+
+        var show = true
+        
+        // 축하글 영역보다 윗부분인 경우
+        if (wsc_top < ($('#guest_row').offset().top - (window.innerHeight/10*9))) show = false
+        
+        // 축하글 텍스트 입력란에 포커스 되있는 경우
+        if ($('#msg_textarea').is(':focus')) show = true
+
+        // 축하글 텍스트 입력란에 입력내용 있는 경우
+        if ($('#msg_textarea').val().length > 0) show = true
+
+        if (show) {
+            
+            if (reply_add_row_visible == false) {
+                reply_add_row_visible = true
+                $('#reply_add_wrapper').stop().animate({ 'bottom': 0 }, 700)
+            }
+    
+        } else {
+    
+            $('#reply_add_wrapper').stop().css({ 'bottom': (0-parseInt($('#reply_add_wrapper').outerHeight()))+'px' })
+            //$('#tail_menu_section').hide()
+            reply_add_row_visible = false
+    
+        }
+
+
+    }
+
+
+})
+
+
+
+window.addEventListener('wheel', function(e) {
+    if (e.deltaY < 0) {
+        //console.log('scrolling up');
+    }
+    if (e.deltaY > 0) {
+        //console.log('scrolling down');
+        if (window.pageYOffset >= (document.documentElement.scrollHeight - window.innerHeight)) {
+            $('#tail_menu_section').show()
+        }
+    }
+})
+
+
+//최하단 도달했을시
+document.addEventListener('touchstart', handleTouchStart, false)
+document.addEventListener('touchmove', handleTouchMove, false)
+
+var touch_client_x = null
+var touch_client_y = null
+
+function handleTouchStart(evt) {
+    touch_client_x = evt.touches[0].clientX
+    touch_client_y = evt.touches[0].clientY
+}
+
+function handleTouchMove(evt) {
+
+    if ( ! touch_client_x || ! touch_client_y ) {
+        return
+    }
+
+    var touch_client_up_x = evt.touches[0].clientX
+    var touch_client_up_y = evt.touches[0].clientY
+
+    var touch_diff_x = touch_client_x - touch_client_up_x
+    var touch_diff_y = touch_client_y - touch_client_up_y
+
+    if ( Math.abs( touch_diff_x ) > Math.abs( touch_diff_y ) ) {
+
+        if ( touch_diff_x > 0 ) {
+            /* swipe left */
+        } else {
+            /* swipe right */
+        }
+
+    } else {
+
+        if ( touch_diff_y > 0 ) {
+            /* swipe up */
+            if (window.pageYOffset >= (document.documentElement.scrollHeight - window.innerHeight)) {
+                $('#tail_menu_section').show()
+            }
+
+        } else { 
+            /* swipe down */
+        }
+
+    }
+
+    touch_client_x = null
+    touch_client_y = null
+
+}
+</script><style>
+#msg_delete_button {
+    background-color: #dddddd;
+    border-color: #dddddd;
+}
+#reply_mail_notify_row, #reply_form_edit_writer_notice {
+    position: relative;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#reply_mail_notify_button {
+    position: absolute; right: 0; top: -2px;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+</style>
+<div class="mask_over form_layer" id="reply_form">
+
+    <img class="form_close_button" id="reply_form_close_button" src="https://bojagicard.com/g/img/button_x_01_black.png" height="17" />
+    <div class="form_title" id="msg_form_title">댓글 수정</div>
+
+    <div><textarea class="textarea_single_row" id="reply_form_textarea" placeholder="내용을 입력하세요"></textarea></div>
+
+    <div id="reply_mail_notify_row">
+        댓글 등록시 이메일 알림 받기
+        <img id="reply_mail_notify_button" src="https://bojagicard.com/g/img/toggle_button_on.png" />
+        <input type="hidden" name="reply_notify" value="1" />
+    </div>
+
+    <div id="reply_form_edit_writer_notice">
+        메시지 수정은 작성자만 가능합니다.
+    </div>
+
+    <div style="padding-top: 5px; padding-bottom: 10px;">
+        <table cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td style="width: auto;"><div class="register_button" id="msg_form_submit_button">등록하기</div></td>
+                <td style="width: 10px;">&nbsp;</td>
+                <td style="width: 90px;"><div class="register_button" id="msg_delete_button">삭제</div></td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+
+
+<script>
+$(function(){
+    
+    
+    $('#reply_mail_notify_button').on('click', function(){
+
+        if ($(this).attr('src').indexOf('on.png') != -1) {
+            reply_form_notify(0)
+        } else {
+            reply_form_notify(1)
+        }
+
+    })
+
+
+})
+
+
+function reply_form_notify(sw) {
+
+    if (sw == 0) {
+        $('input[name=reply_notify]').val(0)
+        $('#reply_mail_notify_button').attr('src', $('#reply_mail_notify_button').attr('src').replace('on.png', 'off.png'))
+    }
+
+    if (sw == 1) {
+        $('input[name=reply_notify]').val(1)
+        $('#reply_mail_notify_button').attr('src', $('#reply_mail_notify_button').attr('src').replace('off.png', 'on.png'))
+    }
+
+}
+
+</script><style>
+.contact_row_table {
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+.contact_row_table td {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    font-size: 13px;
+    padding-left: 6px;
+    width: 36%;
+}
+.contact_row_table td:first-child {
+    border-right: 1px solid #ececec;
+    font-size: 14px;
+    padding-left: 0;
+    width: 28%;
+}
+.contact_button_icon {
+    height: 33px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+</style>
+
+
+
+<div class="mask_over form_layer" id="contact_a" style="width: 100%;">
+
+    <img class="form_close_button" id="guest_user_form_close_button" src="https://bojagicard.com/g/img/button_x_01_black.png" height="17" />
+    <div class="form_title" style="background-image: url('https://bojagicard.com/g/img/contact_icon_a.png'); line-height: 45px; ">
+        신랑측 연락처
+    </div>
+
+
+    <table cellspacing="0" cellpadding="0" class="contact_row_table">
+        <tr>
+            <td>신랑</td>
+            <td>
+                <a href="tel:010-5502-3556">
+                    전화하기
+                    <img class="contact_button_icon" src="https://bojagicard.com/g/img/mcard_icon_tel.png" />
+                </a>
+            </td>
+            <td>
+                <a href="sms:010-5502-3556">
+                    문자하기
+                    <img class="contact_button_icon" src="https://bojagicard.com/g/img/mcard_icon_sms.png" />
+                </a>
+            </td>
+        </tr>
+    </table>
+
+
+
+    
+        
+            <table cellspacing="0" cellpadding="0" class="contact_row_table">
+                <tr>
+                    <td>부)정종일</td>
+                    <td>
+
+                                                
+                    </td>
+                    <td>
+
+                        
+                    </td>
+                </tr>
+            </table>
+
+        
+
+        
+            <table cellspacing="0" cellpadding="0" class="contact_row_table">
+                <tr>
+                    <td>모)김숙이</td>
+                    <td>
+
+                                                
+                    </td>
+                    <td>
+
+                        
+                    </td>
+                </tr>
+            </table>
+
+        
+    
+
+</div>
+
+<div class="mask_over form_layer" id="contact_b" style="width: 100%;">
+
+    <img class="form_close_button" id="guest_user_form_close_button" src="https://bojagicard.com/g/img/button_x_01_black.png" height="17" />
+    <div class="form_title" style="background-image: url('https://bojagicard.com/g/img/contact_icon_b.png'); line-height: 45px; ">
+        신부측 연락처
+    </div>
+
+
+    <table cellspacing="0" cellpadding="0" class="contact_row_table">
+        <tr>
+            <td>신부</td>
+            <td>
+                <a href="tel:010-6313-9628">
+                    전화하기
+                    <img class="contact_button_icon" src="https://bojagicard.com/g/img/mcard_icon_tel.png" />
+                </a>
+            </td>
+            <td>
+                <a href="sms:010-6313-9628">
+                    문자하기
+                    <img class="contact_button_icon" src="https://bojagicard.com/g/img/mcard_icon_sms.png" />
+                </a>
+            </td>
+        </tr>
+    </table>
+
+
+
+    
+        
+            <table cellspacing="0" cellpadding="0" class="contact_row_table">
+                <tr>
+                    <td>부)송진혁</td>
+                    <td>
+
+                                                
+                    </td>
+                    <td>
+
+                        
+                    </td>
+                </tr>
+            </table>
+
+        
+
+        
+            <table cellspacing="0" cellpadding="0" class="contact_row_table">
+                <tr>
+                    <td>모)전정순</td>
+                    <td>
+
+                                                
+                    </td>
+                    <td>
+
+                        
+                    </td>
+                </tr>
+            </table>
+
+        
+    
+
+</div>
+
+
+
+
+<style>
+#console {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    position: fixed; z-index: 20;
+
+    background-color: #efefef;
+    bottom: 0;
+    color: black;
+    font-size: 12px;
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    opacity: 0.75;
+
+    display: none;
+
+}
+</style>
+<div id="console">console</div>
 
 </body>
 </html>
+
+
+
+<script>
+$(function() {
+
+    /*
+
+    $('#console').text(
+            'wsc_top:'+wsc_top
+            +' dh:'+document.body.scrollHeight
+            +' w-innerH:'+window.innerHeight
+            +' v:'+document.getElementById('tail_menu_section').scrollHeight
+    )
+
+    //TEST for form coading
+    setTimeout(function(){
+            mask(0.5)
+            $('#reply_form').css({
+                'display': 'block',
+                'left': wrapper_left_margin+'px',
+                'width': wrapper_width+'px'
+            })
+    },500)
+
+    */
+
+})
+</script>
+
+
+
+
+
+
+
+
+<script>
+function ask_admin_login(s_url) {
+		if (confirm('로그인이 필요한 서비스입니다.\n\n로그인 페이지로 이동할까요?')) {
+				location.href='user_login.php?ecard=sghjjw&s_url='+s_url
+		}
+}
+
+$(function() {
+
+	// 하단 흰 여백을 남는 해상도 만큼 채우기
+	
+})
+
+$(function() {
+	$('input[type=checkbox],input[type=image]').each(function() {
+        $(this).css('border', 0)
+	})
+})
+
+function not_for_pc() {
+				alert('모바일 환경에서 사용가능한 기능입니다');
+			return false
+	}
+
+function windowcopen(url, title, options) {
+
+	var option_nosize = "";
+	options_arr = options.split(",")
+	for(i=0; (i+1) <= options_arr.length; i++){
+		option = options_arr[i]
+		option_arr = option.split("=")
+		var fld = option_arr[0]
+		var val = option_arr[1]
+		if(fld == 'width') var ww = val
+		else if(fld == 'height') var wh = val
+		else option_nosize += ","+fld+"="+val
+	}
+
+	var left = (screen.width/2)-(ww/2)
+	var top = (screen.height/2)-(wh/2)-50
+	return window.open(url, title, 'width='+ww+', height='+wh+', top='+top+', left='+left +option_nosize)
+
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- counters block -->
+
+
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s) {if (f.fbq)return;n=f.fbq=function() {n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if (!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '442009885997301', {
+em: 'insert_email_variable,'
+});
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=442009885997301&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+
+
+
+
+<!-- Google 애널리틱스 2017.03.14 -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58635370-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-58635370-1');
+</script>
+<!-- Google 애널리틱스 -->
+
+
+<!-- Google 리마케팅 태그 코드 2017.03.09 -->
+<!--------------------------------------------------
+리마케팅 태그를 개인식별정보와 연결하거나 민감한 카테고리와 관련된 페이지에 추가해서는 안 됩니다. 리마케팅 태그를 설정하는 방법에 대해 자세히 알아보려면 다음 페이지를 참조하세요. http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1006263967;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1006263967/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- Google 리마케팅 태그 코드 -->
+
+
+
+<!-- counters end -->
